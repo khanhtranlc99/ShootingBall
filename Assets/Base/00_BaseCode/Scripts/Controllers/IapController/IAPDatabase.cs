@@ -18,14 +18,19 @@ public enum TypePackIAP
     HugePack = 8,
     MegaPack = 9,
     MasterPack = 10,
-    CoinPack_900 = 11,
-    CoinPack_2400 = 12,
-    CoinPack_5400 = 13,
-    CoinPack_11700 = 14,
-    CoinPack_25500 = 15,
-    CoinPack_48000 = 16,
-
-
+    CoinPack_1000_2000 = 11,
+    CoinPack_10000_7000 = 12,
+    CoinPack_300 = 13,
+    CoinPack_500_50 = 14,
+    CoinPack_3000_900= 15,
+    CoinPack_5000_2000 = 16,
+    Ball_2_Pack = 17,
+    Ball_3_Pack = 18,
+    Ball_4_Pack = 19,
+    Ball_5_Pack = 20,
+    Ball_6_Pack = 21,
+    Ball_7_Pack = 22,
+    Ball_8_Pack = 23,
 }
 
 
@@ -130,7 +135,7 @@ public class IAPPack
         {
             switch (type)
             {
-            
+
                 case TypePackIAP.NoAdsCoinPack:
                     break;
                 case TypePackIAP.NoAdsHeartPack:
@@ -140,10 +145,10 @@ public class IAPPack
                     GameController.Instance.useProfile.IsRemoveAds = true;
                     GameController.Instance.admobAds.DestroyBanner();
                     EventDispatcher.EventDispatcher.Instance.PostEvent(EventID.REMOVE_ADS);
-              
+
                     break;
 
-      
+
             }
         }
 
@@ -176,8 +181,13 @@ public class IAPPack
             foreach (var item in itemsResult)
             {
                 GameController.Instance.dataContain.giftDatabase.Claim(item.Key, item.Value);
+                GiftRewardShow rw = new GiftRewardShow();
+                rw.type = item.Key;
+                rw.amount = item.Value;
+
+                lstReward.Add(rw);
             }
-                
+
             if (typeBuy == TypeBuy.Inapp && productType == ProductType.NonConsumable)
             {
                 if (isIapInited)
@@ -205,8 +215,8 @@ public class IAPPack
                 {
                     RewardIAPBox.Setup2(true).Show(lstReward, actionClaim: () => { actClaimDone?.Invoke(); });
                 }
-            }    
-        
+            }
+
             IsBought = true;
         }
     }

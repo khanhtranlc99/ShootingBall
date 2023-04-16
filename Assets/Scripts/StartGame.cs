@@ -41,9 +41,9 @@ public class StartGame : MonoBehaviour
 		SocialManager.Instance.OpenLinkDeveloper();
 	}
 
-	public void ButtonRate()
+	public void ButtonSHop()
 	{
-		
+		ShopBox.Setup().Show();
 	}
 
 	public GameObject panelOutGame;

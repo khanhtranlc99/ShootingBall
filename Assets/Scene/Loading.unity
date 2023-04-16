@@ -2940,7 +2940,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isInited: 1
-  inappDatabase: {fileID: 11400000, guid: a425d0ec578b9ef499dede42aad3d4b9, type: 2}
+  inappDatabase: {fileID: 11400000, guid: 068bf4fdd44c8a14cb1bcde6b23e4d01, type: 2}
 --- !u!114 &4493901266695355948
 MonoBehaviour:
   m_ObjectHideFlags: 0

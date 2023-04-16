@@ -48,7 +48,7 @@ public abstract class BaseBox : MonoBehaviour
         {
             popupCanvas.renderMode = RenderMode.ScreenSpaceCamera;
             popupCanvas.worldCamera = Camera.main;
-            popupCanvas.sortingLayerID = SortingLayer.NameToID("Popup");
+            popupCanvas.sortingLayerID = SortingLayer.NameToID("Canvas");
         }
 
         if (this.mainPanel != null)

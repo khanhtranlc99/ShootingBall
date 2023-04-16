@@ -184,6 +184,10 @@ public class GameControll : MonoBehaviour
 			}
 		});
 		this.SetAdsAfterOrBefore();
+		EventDispatcher.EventDispatcher.Instance.RegisterListener(EventID.CHANGE_ADD_BALL, ChangeText);
+		EventDispatcher.EventDispatcher.Instance.RegisterListener(EventID.CHANGE_THUNDER, ChangeText);
+		tvAddBall.text = "" + UseProfile.AddBallsBooster;
+		tvThunder.text = "" + UseProfile.ThunderBooster;
 	}
 	public List<BallControll> lsBallControlls; 
 	private IEnumerator ShootBall()
@@ -851,17 +855,29 @@ public class GameControll : MonoBehaviour
 	public Transform transformThunder;
 	public bool wasUseAddBall = false;
 	public Image addBall;
+	public Text tvThunder;
+	public Text tvAddBall;
 	public void BoosterThunder()
     {
+		if(UseProfile.ThunderBooster > 0)
+        {
+			UseProfile.ThunderBooster -= 1;
+			   var temp = Instantiate(thunderIcon, transformThunder.position, Quaternion.identity);
+			temp.transform.parent = transformThunder.transform;
+			temp.transform.localScale = new Vector3(1, 1, 0);
+			temp.transform.DOMove(Vector3.zero, 0.4f).OnComplete(delegate {
+				HandleBoosterThunder();
+				temp.gameObject.SetActive(false);
+				ControlSound.instance.PlaySoundLazer();
+			});
 
-		var temp = Instantiate(thunderIcon, transformThunder.position, Quaternion.identity);
-		temp.transform.parent = transformThunder.transform;
-		temp.transform.localScale = new Vector3(1,1,0);
-		temp.transform.DOMove(Vector3.zero, 0.4f).OnComplete(delegate {
-			HandleBoosterThunder();
-			temp.gameObject.SetActive(false);
-			ControlSound.instance.PlaySoundLazer();
-		}) ;
+		}		
+		else
+        {
+			ShopBox.Setup().Show();
+		
+        }
+	
 
 
 	}
@@ -897,18 +913,27 @@ public class GameControll : MonoBehaviour
 
 	public void BoosterAddBall()
     {
-		if (!wasUseAddBall)
+		if (UseProfile.AddBallsBooster > 0)
 		{
-			wasUseAddBall = true;
-			var temp = Instantiate(addBallIcon, transformThunder.position, Quaternion.identity);
-		temp.transform.parent = transformThunder.transform;
-		temp.transform.localScale = new Vector3(1, 1, 0);
-		temp.transform.DOMove(Vector3.zero, 0.4f).OnComplete(delegate {
-			HandleBoosterAddBall();
-			temp.gameObject.SetActive(false);
-			ControlSound.instance.PlaySoundLazer();
-		});
+			UseProfile.AddBallsBooster -= 1;
+			if (!wasUseAddBall)
+			{
+				wasUseAddBall = true;
+				var temp = Instantiate(addBallIcon, transformThunder.position, Quaternion.identity);
+				temp.transform.parent = transformThunder.transform;
+				temp.transform.localScale = new Vector3(1, 1, 0);
+				temp.transform.DOMove(Vector3.zero, 0.4f).OnComplete(delegate {
+					HandleBoosterAddBall();
+					temp.gameObject.SetActive(false);
+					ControlSound.instance.PlaySoundLazer();
+				});
+			}
 		}
+		else
+        {
+			ShopBox.Setup().Show();
+		}
+		
 	}
 
 	private void HandleBoosterAddBall()
@@ -923,6 +948,11 @@ public class GameControll : MonoBehaviour
 
 	}
 
+	public void ChangeText(object param)
+    {
+		tvAddBall.text = "" + UseProfile.AddBallsBooster;
+		tvThunder.text = "" + UseProfile.ThunderBooster;
+	}
 	private void SpawnItemFirst()
 	{
 		if (this.keys.Count >= 81)

@@ -349,6 +349,9 @@
     <Reference Include="Sirenix.OdinInspector.Attributes">
       <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll</HintPath>
     </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
+    </Reference>
     <Reference Include="Sirenix.Serialization.Config">
       <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll</HintPath>
     </Reference>
@@ -361,92 +364,32 @@
     <Reference Include="ZKWCryptoPlayerPrefs">
       <HintPath>Assets\Common\F4A\ZeichenKraftwerk\ZKWCryptoPlayerPrefs.dll</HintPath>
     </Reference>
-    <Reference Include="Firebase.Firestore">
-      <HintPath>Library\PackageCache\com.google.firebase.firestore@0750770eff31\Firebase\Plugins\Firebase.Firestore.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.Editor">
-      <HintPath>Library\PackageCache\com.unity.analytics@3.6.12\Unity.Analytics.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="LibFBGManaged">
-      <HintPath>Assets\Base\FacebookSDK\Plugins\Windows\LibFBGManaged.dll</HintPath>
-    </Reference>
-    <Reference Include="DemiEditor">
-      <HintPath>Assets\Demigiant\DemiLib\Core\Editor\DemiEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="ACTkSharpZipLib">
-      <HintPath>Assets\Base\3Party\CodeStage\AntiCheatToolkit\Editor\SharpZip\ACTkSharpZipLib.dll</HintPath>
-    </Reference>
-    <Reference Include="Firebase.Analytics">
-      <HintPath>Library\PackageCache\com.google.firebase.analytics@3dbb301ca953\Firebase\Plugins\Firebase.Analytics.dll</HintPath>
-    </Reference>
-    <Reference Include="Win81Interface">
-      <HintPath>Assets\Base\3Party\Adjust\Windows\Stubs\Win81Interface.dll</HintPath>
-    </Reference>
-    <Reference Include="Win10Interface">
-      <HintPath>Assets\Base\3Party\Adjust\Windows\Stubs\Win10Interface.dll</HintPath>
-    </Reference>
-    <Reference Include="Firebase.Crashlytics">
-      <HintPath>Library\PackageCache\com.google.firebase.crashlytics@36b50a7241bd\Firebase\Plugins\Firebase.Crashlytics.dll</HintPath>
-    </Reference>
-    <Reference Include="Firebase.Messaging.Editor">
-      <HintPath>Library\PackageCache\com.google.firebase.messaging@e7d076dac6d1\Firebase\Editor\Firebase.Messaging.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween">
-      <HintPath>Assets\Demigiant\DOTween\DOTween.dll</HintPath>
-    </Reference>
-    <Reference Include="Firebase.App">
-      <HintPath>Library\PackageCache\com.google.firebase.app@18c3e06f7f0f\Firebase\Plugins\Firebase.App.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.JarResolver">
-      <HintPath>Library\PackageCache\com.google.external-dependency-manager@ba0856d357b9\ExternalDependencyManager\Editor\1.2.175\Google.JarResolver.dll</HintPath>
-    </Reference>
-    <Reference Include="WinWsInterface">
-      <HintPath>Assets\Base\3Party\Adjust\Windows\Stubs\WinWsInterface.dll</HintPath>
-    </Reference>
-    <Reference Include="Sirenix.Utilities">
-      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll</HintPath>
-    </Reference>
-    <Reference Include="Sirenix.Serialization">
-      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll</HintPath>
-    </Reference>
-    <Reference Include="Firebase.Messaging">
-      <HintPath>Library\PackageCache\com.google.firebase.messaging@e7d076dac6d1\Firebase\Plugins\Firebase.Messaging.dll</HintPath>
-    </Reference>
-    <Reference Include="FileHelpers">
-      <HintPath>Assets\Base\3Party\Joker2X\FileHelpers.dll</HintPath>
-    </Reference>
-    <Reference Include="Facebook.Unity.Canvas">
-      <HintPath>Assets\Base\FacebookSDK\Plugins\Canvas\Facebook.Unity.Canvas.dll</HintPath>
-    </Reference>
-    <Reference Include="Firebase.Editor">
-      <HintPath>Library\PackageCache\com.google.firebase.app@18c3e06f7f0f\Firebase\Editor\Firebase.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="DemiLib">
-      <HintPath>Assets\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Compat">
-      <HintPath>Library\PackageCache\com.google.firebase.app@18c3e06f7f0f\Parse\Plugins\dotNet45\Unity.Compat.dll</HintPath>
-    </Reference>
-    <Reference Include="Facebook.Unity">
-      <HintPath>Assets\Base\FacebookSDK\Plugins\Facebook.Unity.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween43">
-      <HintPath>Assets\Demigiant\DOTween\DOTween43.dll</HintPath>
-    </Reference>
-    <Reference Include="log4netPlastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Firestore">
+      <HintPath>Library\PackageCache\com.google.firebase.firestore@0750770eff31\Firebase\Plugins\Firebase.Firestore.dll</HintPath>
     </Reference>
     <Reference Include="Facebook.Unity.Windows">
       <HintPath>Assets\Base\FacebookSDK\Plugins\Windows\Facebook.Unity.Windows.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>Library\PackageCache\com.unity.analytics@3.6.12\Unity.Analytics.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="DemiEditor">
+      <HintPath>Assets\Demigiant\DemiLib\Core\Editor\DemiEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="LibFBGManaged">
+      <HintPath>Assets\Base\FacebookSDK\Plugins\Windows\LibFBGManaged.dll</HintPath>
+    </Reference>
     <Reference Include="Firebase.TaskExtension">
       <HintPath>Library\PackageCache\com.google.firebase.app@18c3e06f7f0f\Firebase\Plugins\Firebase.TaskExtension.dll</HintPath>
+    </Reference>
+    <Reference Include="ACTkSharpZipLib">
+      <HintPath>Assets\Base\3Party\CodeStage\AntiCheatToolkit\Editor\SharpZip\ACTkSharpZipLib.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
       <HintPath>Library\PackageCache\com.unity.analytics@3.6.12\Unity.Analytics.Tracker.dll</HintPath>
@@ -457,26 +400,47 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="Facebook.Unity.Settings">
-      <HintPath>Assets\Base\FacebookSDK\Plugins\Settings\Facebook.Unity.Settings.dll</HintPath>
-    </Reference>
     <Reference Include="Firebase.RemoteConfig">
       <HintPath>Library\PackageCache\com.google.firebase.remote-config@857f0ad3a432\Firebase\Plugins\Firebase.RemoteConfig.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Analytics">
+      <HintPath>Library\PackageCache\com.google.firebase.analytics@3dbb301ca953\Firebase\Plugins\Firebase.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Settings">
+      <HintPath>Assets\Base\FacebookSDK\Plugins\Settings\Facebook.Unity.Settings.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.OdinInspector.Editor">
       <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Google.MiniJson">
-      <HintPath>Library\PackageCache\com.google.firebase.app@18c3e06f7f0f\Firebase\Plugins\Google.MiniJson.dll</HintPath>
+    <Reference Include="Win81Interface">
+      <HintPath>Assets\Base\3Party\Adjust\Windows\Stubs\Win81Interface.dll</HintPath>
     </Reference>
     <Reference Include="Google.VersionHandler">
       <HintPath>Library\PackageCache\com.google.external-dependency-manager@ba0856d357b9\ExternalDependencyManager\Editor\Google.VersionHandler.dll</HintPath>
     </Reference>
+    <Reference Include="Google.MiniJson">
+      <HintPath>Library\PackageCache\com.google.firebase.app@18c3e06f7f0f\Firebase\Plugins\Google.MiniJson.dll</HintPath>
+    </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
+    <Reference Include="Win10Interface">
+      <HintPath>Assets\Base\3Party\Adjust\Windows\Stubs\Win10Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Crashlytics">
+      <HintPath>Library\PackageCache\com.google.firebase.crashlytics@36b50a7241bd\Firebase\Plugins\Firebase.Crashlytics.dll</HintPath>
+    </Reference>
     <Reference Include="Google.IOSResolver">
       <HintPath>Library\PackageCache\com.google.external-dependency-manager@ba0856d357b9\ExternalDependencyManager\Editor\1.2.175\Google.IOSResolver.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Messaging.Editor">
+      <HintPath>Library\PackageCache\com.google.firebase.messaging@e7d076dac6d1\Firebase\Editor\Firebase.Messaging.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets\Demigiant\DOTween\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.App">
+      <HintPath>Library\PackageCache\com.google.firebase.app@18c3e06f7f0f\Firebase\Plugins\Firebase.App.dll</HintPath>
     </Reference>
     <Reference Include="DOTween50">
       <HintPath>Assets\Demigiant\DOTween\DOTween50.dll</HintPath>
@@ -490,6 +454,18 @@
     <Reference Include="Google.VersionHandlerImpl">
       <HintPath>Library\PackageCache\com.google.external-dependency-manager@ba0856d357b9\ExternalDependencyManager\Editor\1.2.175\Google.VersionHandlerImpl.dll</HintPath>
     </Reference>
+    <Reference Include="Google.JarResolver">
+      <HintPath>Library\PackageCache\com.google.external-dependency-manager@ba0856d357b9\ExternalDependencyManager\Editor\1.2.175\Google.JarResolver.dll</HintPath>
+    </Reference>
+    <Reference Include="WinWsInterface">
+      <HintPath>Assets\Base\3Party\Adjust\Windows\Stubs\WinWsInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="Sirenix.Utilities">
+      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Sirenix.Serialization">
+      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll</HintPath>
+    </Reference>
     <Reference Include="Facebook.Unity.Editor">
       <HintPath>Assets\Base\FacebookSDK\Plugins\Editor\Facebook.Unity.Editor.dll</HintPath>
     </Reference>
@@ -499,11 +475,26 @@
     <Reference Include="Facebook.Unity.Android">
       <HintPath>Assets\Base\FacebookSDK\Plugins\Android\Facebook.Unity.Android.dll</HintPath>
     </Reference>
+    <Reference Include="Firebase.Messaging">
+      <HintPath>Library\PackageCache\com.google.firebase.messaging@e7d076dac6d1\Firebase\Plugins\Firebase.Messaging.dll</HintPath>
+    </Reference>
+    <Reference Include="FileHelpers">
+      <HintPath>Assets\Base\3Party\Joker2X\FileHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity.Canvas">
+      <HintPath>Assets\Base\FacebookSDK\Plugins\Canvas\Facebook.Unity.Canvas.dll</HintPath>
+    </Reference>
     <Reference Include="DOTweenPro">
       <HintPath>Assets\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
     </Reference>
+    <Reference Include="Firebase.Editor">
+      <HintPath>Library\PackageCache\com.google.firebase.app@18c3e06f7f0f\Firebase\Editor\Firebase.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="DOTweenProEditor">
       <HintPath>Assets\Demigiant\DOTweenPro\Editor\DOTweenProEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="DemiLib">
+      <HintPath>Assets\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
     </Reference>
     <Reference Include="DOTweenEditor">
       <HintPath>Assets\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
@@ -513,6 +504,15 @@
     </Reference>
     <Reference Include="Firebase.Platform">
       <HintPath>Library\PackageCache\com.google.firebase.app@18c3e06f7f0f\Firebase\Plugins\Firebase.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Compat">
+      <HintPath>Library\PackageCache\com.google.firebase.app@18c3e06f7f0f\Parse\Plugins\dotNet45\Unity.Compat.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity">
+      <HintPath>Assets\Base\FacebookSDK\Plugins\Facebook.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween43">
+      <HintPath>Assets\Demigiant\DOTween\DOTween43.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>

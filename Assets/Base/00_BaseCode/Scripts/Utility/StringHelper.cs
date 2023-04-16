@@ -48,11 +48,12 @@ public static class StringHelper
 
 public class PathPrefabs
 {
+  
     public const string POPUP_REWARD_BASE = "UI/Popups/PopupRewardBase";
     public const string CONFIRM_POPUP = "UI/Popups/ConfirmBox";
     public const string WAITING_BOX = "UI/Popups/WaitingBox";
     public const string WIN_BOX = "UI/Popups/WinBox";
-    public const string REWARD_IAP_BOX = "UI/Popups/RewardIAPBox";
+    public const string REWARD_IAP_BOX = "UI/RewardIAPBox";
     public const string SHOP_BOX = "UI/ShopBox";
     public const string RATE_GAME_BOX = "UI/Popups/RateGameBox";
     public const string SETTING_BOX = "UI/Popups/SettingBox";

@@ -50,12 +50,12 @@ public class GiftDatabase : SerializedScriptableObject
                 //GameController.Instance.admobAds.DestroyBanner();
                 break;
             case GiftType.ThunderBooster:
-            
-            
+                UseProfile.ThunderBooster += amount;
+
                 break;
             case GiftType.AddBallBooster:
+                UseProfile.AddBallsBooster += amount;
 
-            
                 break;
 
 
@@ -89,11 +89,15 @@ public enum GiftType
     Coin = 2,
     Heart = 3,
     ThunderBooster = 4, 
-    AddBallBooster = 5
-
-
-
-
+    AddBallBooster = 5,
+    Ball_1 = 6,
+    Ball_2 = 7,
+    Ball_3 = 8,
+    Ball_4 = 9,
+    Ball_5 = 10,
+    Ball_6 = 11,
+    Ball_7 = 12,
+    Ball_8 = 13,
 }
 
 public enum Reason

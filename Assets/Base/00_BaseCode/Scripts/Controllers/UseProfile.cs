@@ -73,24 +73,26 @@ public class UseProfile : MonoBehaviour
     {
         get
         {
-            return PlayerPrefs.GetInt(StringHelper.REDO_BOOSTER, 0);
+            return PlayerPrefs.GetInt(StringHelper.REDO_BOOSTER, 2);
         }
         set
         {
             PlayerPrefs.SetInt(StringHelper.REDO_BOOSTER, value);
             PlayerPrefs.Save();
+            EventDispatcher.EventDispatcher.Instance.PostEvent(EventID.CHANGE_THUNDER);
         }
     }
     public static int AddBallsBooster
     {
         get
         {
-            return PlayerPrefs.GetInt(StringHelper.SUPORT_BOOSTER, 0);
+            return PlayerPrefs.GetInt(StringHelper.SUPORT_BOOSTER, 2);
         }
         set
         {
             PlayerPrefs.SetInt(StringHelper.SUPORT_BOOSTER, value);
             PlayerPrefs.Save();
+            EventDispatcher.EventDispatcher.Instance.PostEvent(EventID.CHANGE_ADD_BALL);
         }
     }
 
