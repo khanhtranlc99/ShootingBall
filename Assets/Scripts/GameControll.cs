@@ -23,7 +23,7 @@ public class GameControll : MonoBehaviour
 		{
 			GameControll.instane = this;
 		}
-		bool sound = GameUtils.Sound;
+		bool sound = GameUtilsOld.Sound;
 		if (!sound)
 		{
 			if (!sound)

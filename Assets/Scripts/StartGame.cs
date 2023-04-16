@@ -10,7 +10,7 @@ public class StartGame : MonoBehaviour
 		Screen.SetResolution(1080, 1920, true);
 #endif
 		this.panelLoading.SetActive(false);
-		SelectLevel.levelUnlock = GameUtils.GetUnlockLevel();
+		SelectLevel.levelUnlock = GameUtilsOld.GetUnlockLevel();
 	}
 
 	public void ButtonOutGame()

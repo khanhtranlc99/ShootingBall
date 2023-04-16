@@ -435,7 +435,7 @@ namespace com.F4A.MobileThird
         public void Toast(string message, bool shortDuration)
         {
 #if UNITY_ANDROID
-            AndroidNativeFunctions.ShowToast(message, shortDuration);
+           // AndroidNativeFunctions.ShowToast(message, shortDuration);
 #elif UNITY_IOS
 
 #endif

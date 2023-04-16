@@ -6,7 +6,7 @@ public class SettingPause : MonoBehaviour
 {
 	private void OnEnable()
 	{
-		bool flag = GameUtils.Sound;
+		bool flag = GameUtilsOld.Sound;
 		if (!flag)
 		{
 			if (!flag)
@@ -25,7 +25,7 @@ public class SettingPause : MonoBehaviour
 	public void ButSound()
 	{
 		ControlSound.instance.PlaySoundButton();
-		bool flag = GameUtils.Sound;
+		bool flag = GameUtilsOld.Sound;
 		if (!flag)
 		{
 			if (!flag)
@@ -33,7 +33,7 @@ public class SettingPause : MonoBehaviour
 				this.imgSound.sprite = this.soundOn;
 				this.textSound.text = "Sound On";
 				ControlSound.instance.OnSound();
-				GameUtils.Sound = true;
+				GameUtilsOld.Sound = true;
 			}
 		}
 		else
@@ -41,7 +41,7 @@ public class SettingPause : MonoBehaviour
 			this.imgSound.sprite = this.soundOff;
 			this.textSound.text = "Sound Off";
 			ControlSound.instance.OffSound();
-			GameUtils.Sound = false;
+			GameUtilsOld.Sound = false;
 		}
 	}
 

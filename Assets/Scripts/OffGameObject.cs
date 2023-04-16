@@ -10,7 +10,7 @@ public class OffGameObject : MonoBehaviour
 		{
 			base.StartCoroutine(this.OffObject());
 		}
-		if (this.lazer && GameUtils.Sound)
+		if (this.lazer && GameUtilsOld.Sound)
 		{
 			this.audioLazer.Play();
 		}

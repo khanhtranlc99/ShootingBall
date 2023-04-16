@@ -6,7 +6,7 @@ public class SettingStart : MonoBehaviour
 {
 	private void OnEnable()
 	{
-		bool sound = GameUtils.Sound;
+		bool sound = GameUtilsOld.Sound;
 		if (!sound)
 		{
 			if (!sound)
@@ -25,7 +25,7 @@ public class SettingStart : MonoBehaviour
 	public void ButtonSound()
 	{
 		ControlSound.instance.PlaySoundButton();
-		bool sound = GameUtils.Sound;
+		bool sound = GameUtilsOld.Sound;
 		if (!sound)
 		{
 			if (!sound)
@@ -33,7 +33,7 @@ public class SettingStart : MonoBehaviour
 				this.imgSound.sprite = this.soundOn;
 				this.textSound.text = "Sound On";
 				ControlSound.instance.OnSound();
-				GameUtils.Sound = true;
+				GameUtilsOld.Sound = true;
 			}
 		}
 		else
@@ -41,7 +41,7 @@ public class SettingStart : MonoBehaviour
 			this.imgSound.sprite = this.soundOff;
 			this.textSound.text = "Sound Off";
 			ControlSound.instance.OffSound();
-			GameUtils.Sound = false;
+			GameUtilsOld.Sound = false;
 		}
 	}
 

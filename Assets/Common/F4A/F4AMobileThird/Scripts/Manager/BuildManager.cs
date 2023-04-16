@@ -39,7 +39,7 @@ namespace com.F4A.MobileThird
 #if UNITY_EDITOR
         // android
         public ScriptingImplementation scriptingImplementation = ScriptingImplementation.Mono2x;
-        public AndroidSdkVersions minSdkVersion = AndroidSdkVersions.AndroidApiLevel16;
+        public AndroidSdkVersions minSdkVersion = AndroidSdkVersions.AndroidApiLevel25;
 
         // iOS
 	    public iOSSdkVersion iOSSdkVersion = iOSSdkVersion.DeviceSDK;
