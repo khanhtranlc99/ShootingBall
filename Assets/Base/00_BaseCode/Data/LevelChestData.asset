@@ -22,3 +22,6 @@ MonoBehaviour:
   - level: 0
     giftType: 0
     amount: 0
+  - level: 0
+    giftType: 0
+    amount: 0

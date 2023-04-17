@@ -94,9 +94,9 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\multiplier\WNafPreCompInfo.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\BufferedStreamCipher.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\x509\KeyUsage.cs" />
-    <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\DERExternalParser.cs" />
-    <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\security\DigestUtilities.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\engines\SerpentEngineBase.cs" />
+    <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\security\DigestUtilities.cs" />
+    <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\DERExternalParser.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\util\encoders\IEncoder.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\TlsRsaSigner.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecT571Field.cs" />
@@ -187,8 +187,8 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\util\zlib\ZTree.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\multiplier\ECMultiplier.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\modes\gcm\GcmUtilities.cs" />
-    <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\signers\IDsaKCalculator.cs" />
     <Compile Include="Assets\Base\3Party\Adjust\Unity\AdjustUtils.cs" />
+    <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\signers\IDsaKCalculator.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\ProtocolVersion.cs" />
     <Compile Include="Assets\Scripts\CheckGameEndFail.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\CombinedHash.cs" />
@@ -230,9 +230,9 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\pkcs\RSASSAPSSparams.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\BerApplicationSpecific.cs" />
     <Compile Include="Assets\Base\FacebookSDK\Examples\Mobile\Scripts\SubMenus\AppRequests.cs" />
-    <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\oiw\ElGamalParameter.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\DERSequenceParser.cs" />
     <Compile Include="Assets\Base\3Party\Joker2X\Localize\Scripts\Internal\BetterList.cs" />
+    <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\oiw\ElGamalParameter.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\x9\ECNamedCurveTable.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\OidTokenizer.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\TlsClientContextImpl.cs" />
@@ -341,6 +341,7 @@
     <Compile Include="Assets\Base\00_BaseCode\Scripts\GSocket\Messages\MessageData.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\Examples\SignalR\Authentication Providers\SampleCookieAuthentication.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecT283R1Point.cs" />
+    <Compile Include="Assets\Scripts\SuggetBox.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\WebSocket\WebSocket.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\TlsSigner.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\raw\Nat320.cs" />
@@ -446,8 +447,8 @@
     <Compile Include="Assets\Scripts\ToolsExtend\INotification.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\CertificateStatusRequest.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\TlsSessionImpl.cs" />
-    <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\Asn1Tags.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\SignerInputBuffer.cs" />
+    <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\Asn1Tags.cs" />
     <Compile Include="Assets\Spine\spine-unity\Components\BoneFollower.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Controllers\IapController\ShopBox\InappBox.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\Caching\HTTPCacheService.cs" />
@@ -557,8 +558,8 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\Decompression\Zlib.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\DerPrintableString.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\IDerivationFunction.cs" />
-    <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\Asn1OctetString.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\CipherType.cs" />
+    <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\Asn1OctetString.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecT163K1Point.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\parameters\ECDomainParameters.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Controllers\GamePlayController\ComboSystem.cs" />
@@ -625,8 +626,8 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\Examples\HTTP\UploadStream.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecP160R1Point.cs" />
     <Compile Include="Assets\Spine\spine-csharp\Attachments\BoundingBoxAttachment.cs" />
-    <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\x9\X9FieldID.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\Examples\LitJson\ParserToken.cs" />
+    <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\x9\X9FieldID.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecP256R1FieldElement.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\AbstractTlsCipherFactory.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Analytic\RemoteConfig\GRemoteConfig.cs" />
@@ -744,6 +745,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\OutputLengthException.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Utility\CrystalFramework\Utility\SafeAreaTop.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\parameters\DsaValidationParameters.cs" />
+    <Compile Include="Assets\Scripts\PackInShop.cs" />
     <Compile Include="Assets\Spine\spine-unity\SpineAttributes.cs" />
     <Compile Include="Assets\Scripts\SelectLevel.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\paddings\ISO7816d4Padding.cs" />
@@ -906,6 +908,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecT283K1Curve.cs" />
     <Compile Include="Assets\Spine\spine-csharp\ExposedList.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecT113R1Curve.cs" />
+    <Compile Include="Assets\Scripts\ShopBox.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\modes\GOFBBlockCipher.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\ServerNameList.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\EventDispatcher\EventDispatcher.cs" />
@@ -1221,14 +1224,14 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecT409K1Point.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\ChangeCipherSpec.cs" />
     <Compile Include="Assets\Scripts\Mosframe\ScrollbarHandleSize.cs" />
-    <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\TlsDsaSigner.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\raw\Nat192.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\x509\X509Name.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\parameters\ElGamalPrivateKeyParameters.cs" />
     <Compile Include="Assets\Spine\spine-csharp\Triangulator.cs" />
-    <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\ECPointFormat.cs" />
+    <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\TlsDsaSigner.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SocketIO\JsonEncoders\IJSonEncoder.cs" />
     <Compile Include="Assets\Spine\spine-unity\Modules\SlotBlendModes\SlotBlendModes.cs" />
+    <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\ECPointFormat.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\Examples\SocketIO\SocketIOWePlaySample.cs" />
     <Compile Include="Assets\Common\F4A\F4AMobileThird\Scripts\Manager\Analytics\AppsFlyerManager.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\util\zlib\Adler32.cs" />
@@ -1254,7 +1257,6 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\ASN1SequenceParser.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\generators\DsaKeyPairGenerator.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\x509\X509CrlEntry.cs" />
-    <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\Examples\Helpers\GUIHelper.cs" />
     <Compile Include="Assets\Base\FacebookSDK\Examples\CloudAndroid\Scripts\SavePage.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\Forms\HTTPFormBase.cs" />
     <Compile Include="Assets\Base\FacebookSDK\Examples\Mobile\Scripts\SubMenus\MainMenu.cs" />
@@ -1265,6 +1267,7 @@
     <Compile Include="Assets\Scripts\BackDeviceStart.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\DERSetGenerator.cs" />
     <Compile Include="Assets\Common\F4A\F4ACore\Scripts\SF4AListenerManager.cs" />
+    <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\Examples\Helpers\GUIHelper.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\multiplier\WTauNafMultiplier.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecT131R2Curve.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Datas\DataContain.cs" />
@@ -1306,8 +1309,8 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\TlsDssSigner.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\MaxFragmentLength.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\cryptopro\GOST3410ParamSetParameters.cs" />
-    <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\ISigner.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\generators\RsaKeyPairGenerator.cs" />
+    <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\ISigner.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\security\SecureRandom.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\signers\GenericSigner.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\x509\X509Extension.cs" />
@@ -1373,8 +1376,8 @@
     <Compile Include="Assets\Spine\spine-csharp\IConstraint.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\multiplier\AbstractECMultiplier.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Utility\MzU.cs" />
-    <Compile Include="Assets\Common\F4A\F4AMobileThird\Scripts\Data\IBaseDataInfo.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\encodings\ISO9796d1Encoding.cs" />
+    <Compile Include="Assets\Common\F4A\F4AMobileThird\Scripts\Data\IBaseDataInfo.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Controllers\AppOpenAdManager.cs" />
     <Compile Include="Assets\Base\IronSource\Scripts\IronSourceConfig.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\field\PrimeField.cs" />
@@ -1383,9 +1386,9 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\IWrapper.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\DerBitString.cs" />
     <Compile Include="Assets\Spine\spine-unity\Modules\Timeline\SpineSkeletonFlip\SpineSkeletonFlipClip.cs" />
-    <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SignalR\Messages\ClientMessage.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\sec\SECObjectIdentifiers.cs" />
     <Compile Include="Assets\Scripts\HurtFlashEffect.cs" />
+    <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SignalR\Messages\ClientMessage.cs" />
     <Compile Include="Assets\LeanTween\Examples\Archived\TestingRigidbodyCS.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecP224K1FieldElement.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\DerT61String.cs" />
@@ -1403,8 +1406,6 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\digests\WhirlpoolDigest.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecP192R1FieldElement.cs" />
     <Compile Include="Assets\Common\F4A\F4AMobileThird\Scripts\Manager\ShephertzManager\ShephertzErrors.cs" />
-    <Compile Include="Assets\Scripts\ShopBox.cs" />
-    <Compile Include="Assets\Scripts\PackInShop.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Resources\mapdata2903.txt" />
@@ -4817,11 +4818,11 @@
     <Reference Include="Facebook.Unity.Settings">
       <HintPath>Assets\Base\FacebookSDK\Plugins\Settings\Facebook.Unity.Settings.dll</HintPath>
     </Reference>
-    <Reference Include="Sirenix.OdinInspector.Editor">
-      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Win81Interface">
       <HintPath>Assets\Base\3Party\Adjust\Windows\Stubs\Win81Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="Sirenix.OdinInspector.Editor">
+      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Google.MiniJson">
       <HintPath>Library\PackageCache\com.google.firebase.app@18c3e06f7f0f\Firebase\Plugins\Google.MiniJson.dll</HintPath>
@@ -5249,6 +5250,10 @@
       <Project>{37EED1C3-EBC7-9615-CBCC-EE595E84CC5B}</Project>
       <Name>ACTk.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Recorder.Editor.csproj">
+      <Project>{DA1794E3-6140-94E2-6E16-2CA0C170E802}</Project>
+      <Name>Unity.Recorder.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="ACTk.Examples.Genuine.Runtime.csproj">
       <Project>{ED115BC6-3156-4713-9C04-991BE4AE7403}</Project>
       <Name>ACTk.Examples.Genuine.Runtime</Name>
@@ -5337,9 +5342,17 @@
       <Project>{AB96605B-55E6-16CE-2470-4932F58DAF32}</Project>
       <Name>UnityEngine.Monetization</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Recorder.csproj">
+      <Project>{F65F535C-6A80-C3CE-AB89-F3666ABA5DC6}</Project>
+      <Name>Unity.Recorder</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.2D.Tilemap.Editor.csproj">
       <Project>{57D5723F-8230-2718-4F24-FC83B7712B74}</Project>
       <Name>Unity.2D.Tilemap.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Recorder.Base.csproj">
+      <Project>{CDAABE18-AF11-0301-C07F-61F224A0F9CB}</Project>
+      <Name>Unity.Recorder.Base</Name>
     </ProjectReference>
     <ProjectReference Include="com.unity.multiplayer-hlapi.Editor.csproj">
       <Project>{BC1FE7C9-2D33-B80A-AA1C-8CC1C8A0CDA1}</Project>
@@ -5428,18 +5441,6 @@
     <ProjectReference Include="UnityEngine.Advertisements.Editor.csproj">
       <Project>{89AB91E2-62BF-C2FF-5AB6-98EADE65764A}</Project>
       <Name>UnityEngine.Advertisements.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Recorder.Editor.csproj">
-      <Project>{DA1794E3-6140-94E2-6E16-2CA0C170E802}</Project>
-      <Name>Unity.Recorder.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Recorder.csproj">
-      <Project>{F65F535C-6A80-C3CE-AB89-F3666ABA5DC6}</Project>
-      <Name>Unity.Recorder</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Recorder.Base.csproj">
-      <Project>{CDAABE18-AF11-0301-C07F-61F224A0F9CB}</Project>
-      <Name>Unity.Recorder.Base</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

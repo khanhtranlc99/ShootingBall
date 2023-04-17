@@ -55,6 +55,12 @@ public class ControlEndgame : MonoBehaviour
 					}
 				});
 			}
+
+			//if (GameControll.levelPlaying == )
+   //         {
+
+   //         }
+
 		}
 		else
 		{

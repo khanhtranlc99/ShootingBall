@@ -620,11 +620,11 @@
     <Reference Include="Facebook.Unity.Settings">
       <HintPath>Assets\Base\FacebookSDK\Plugins\Settings\Facebook.Unity.Settings.dll</HintPath>
     </Reference>
-    <Reference Include="Sirenix.OdinInspector.Editor">
-      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Win81Interface">
       <HintPath>Assets\Base\3Party\Adjust\Windows\Stubs\Win81Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="Sirenix.OdinInspector.Editor">
+      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Google.VersionHandler">
       <HintPath>Library\PackageCache\com.google.external-dependency-manager@ba0856d357b9\ExternalDependencyManager\Editor\Google.VersionHandler.dll</HintPath>

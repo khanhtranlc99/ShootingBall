@@ -549,11 +549,11 @@
     <Reference Include="Unity.Tasks">
       <HintPath>Library\PackageCache\com.google.firebase.app@18c3e06f7f0f\Parse\Plugins\dotNet45\Unity.Tasks.dll</HintPath>
     </Reference>
-    <Reference Include="Firebase.Platform">
-      <HintPath>Library\PackageCache\com.google.firebase.app@18c3e06f7f0f\Firebase\Plugins\Firebase.Platform.dll</HintPath>
-    </Reference>
     <Reference Include="Sirenix.Serialization">
       <HintPath>Assets\Plugins\Sirenix\Assemblies\NoEditor\Sirenix.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="Firebase.Platform">
+      <HintPath>Library\PackageCache\com.google.firebase.app@18c3e06f7f0f\Firebase\Plugins\Firebase.Platform.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Compat">
       <HintPath>Library\PackageCache\com.google.firebase.app@18c3e06f7f0f\Parse\Plugins\dotNet45\Unity.Compat.dll</HintPath>

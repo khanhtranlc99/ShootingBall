@@ -55,8 +55,9 @@ public class PathPrefabs
     public const string WIN_BOX = "UI/Popups/WinBox";
     public const string REWARD_IAP_BOX = "UI/RewardIAPBox";
     public const string SHOP_BOX = "UI/ShopBox";
+    public const string SUGGET_BOX = "UI/SUGGETBOX";  
     public const string RATE_GAME_BOX = "UI/Popups/RateGameBox";
-    public const string SETTING_BOX = "UI/Popups/SettingBox";
+    public const string SETTING_BOX = "UI/Popups/SuggetBox";
     public const string LOSE_BOX = "UI/Popups/LoseBox";
     public const string SETTINGS_BOX = "UI/Popups/SettingsBox";
     public const string FAIL_CONNECTION_BOX = "UI/Popups/FailConnectionBox";
@@ -78,6 +79,7 @@ public class PathPrefabs
     public const string REWARD_CONNECT_BIRD_MN_BOX = "UI/Popups/RewardConnectBirdMNBox";
     public const string POPUP_DAILY_REWARD = "UI/Popups/PopupDailyReward";
     public const string POPUP_PAUSE_BOX = "UI/Popups/PauseBox";
+
 }
 
 public class SceneName

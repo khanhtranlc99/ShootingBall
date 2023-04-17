@@ -455,11 +455,11 @@
     <Reference Include="Facebook.Unity.Settings">
       <HintPath>Assets\Base\FacebookSDK\Plugins\Settings\Facebook.Unity.Settings.dll</HintPath>
     </Reference>
-    <Reference Include="Sirenix.OdinInspector.Editor">
-      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Win81Interface">
       <HintPath>Assets\Base\3Party\Adjust\Windows\Stubs\Win81Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="Sirenix.OdinInspector.Editor">
+      <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Google.VersionHandler">
       <HintPath>Library\PackageCache\com.google.external-dependency-manager@ba0856d357b9\ExternalDependencyManager\Editor\Google.VersionHandler.dll</HintPath>
@@ -935,6 +935,10 @@
       <Project>{37EED1C3-EBC7-9615-CBCC-EE595E84CC5B}</Project>
       <Name>ACTk.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Recorder.Editor.csproj">
+      <Project>{DA1794E3-6140-94E2-6E16-2CA0C170E802}</Project>
+      <Name>Unity.Recorder.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="ACTk.Examples.Genuine.Runtime.csproj">
       <Project>{ED115BC6-3156-4713-9C04-991BE4AE7403}</Project>
       <Name>ACTk.Examples.Genuine.Runtime</Name>
@@ -1023,9 +1027,17 @@
       <Project>{AB96605B-55E6-16CE-2470-4932F58DAF32}</Project>
       <Name>UnityEngine.Monetization</Name>
     </ProjectReference>
+    <ProjectReference Include="Unity.Recorder.csproj">
+      <Project>{F65F535C-6A80-C3CE-AB89-F3666ABA5DC6}</Project>
+      <Name>Unity.Recorder</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.2D.Tilemap.Editor.csproj">
       <Project>{57D5723F-8230-2718-4F24-FC83B7712B74}</Project>
       <Name>Unity.2D.Tilemap.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.Recorder.Base.csproj">
+      <Project>{CDAABE18-AF11-0301-C07F-61F224A0F9CB}</Project>
+      <Name>Unity.Recorder.Base</Name>
     </ProjectReference>
     <ProjectReference Include="com.unity.multiplayer-hlapi.Editor.csproj">
       <Project>{BC1FE7C9-2D33-B80A-AA1C-8CC1C8A0CDA1}</Project>
@@ -1114,18 +1126,6 @@
     <ProjectReference Include="UnityEngine.Advertisements.Editor.csproj">
       <Project>{89AB91E2-62BF-C2FF-5AB6-98EADE65764A}</Project>
       <Name>UnityEngine.Advertisements.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Recorder.Editor.csproj">
-      <Project>{DA1794E3-6140-94E2-6E16-2CA0C170E802}</Project>
-      <Name>Unity.Recorder.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Recorder.csproj">
-      <Project>{F65F535C-6A80-C3CE-AB89-F3666ABA5DC6}</Project>
-      <Name>Unity.Recorder</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Recorder.Base.csproj">
-      <Project>{CDAABE18-AF11-0301-C07F-61F224A0F9CB}</Project>
-      <Name>Unity.Recorder.Base</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

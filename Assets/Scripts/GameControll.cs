@@ -874,8 +874,8 @@ public class GameControll : MonoBehaviour
 		}		
 		else
         {
-			ShopBox.Setup().Show();
-		
+			//ShopBox.Setup().Show();
+			SuggetBox.Setup(GiftType.ThunderBooster).Show();
         }
 	
 
@@ -931,7 +931,7 @@ public class GameControll : MonoBehaviour
 		}
 		else
         {
-			ShopBox.Setup().Show();
+			SuggetBox.Setup(GiftType.ThunderBooster).Show();
 		}
 		
 	}

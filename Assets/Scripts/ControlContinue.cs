@@ -45,11 +45,12 @@ public class ControlContinue : MonoBehaviour
 
 	public void ButtonContinue()
 	{
-		EventsManager.Instance.LogEvent("watch_video");
-		GameControll.finishAdsVideo = true;
+       
+
 		ControlSound.instance.PlaySoundButton();
-		
-		BackDeviceGame.status = 10;
+		ObjectPoolerManager.Instance.gameObject.transform.position += new Vector3(0,2.28f,0);
+		base.gameObject.SetActive(false);
+	
 	}
 
 	public IEnumerator ShowEndGame()
