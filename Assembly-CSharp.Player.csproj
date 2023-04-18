@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\field\IPolynomial.cs" />
+    <Compile Include="Assets\IronSource\Scripts\iOSAgent.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\cryptopro\CryptoProObjectIdentifiers.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecT283FieldElement.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Controllers\GamePlayController\GameScene.cs" />
@@ -73,6 +74,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\modes\gcm\IGcmExponentiator.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\util\encoders\Base64.cs" />
     <Compile Include="Assets\Common\F4A\F4AMobileThird\Scripts\Manager\SocialManager\SocialManager.Facebook.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceEvents.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\engines\TEAEngine.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanTween.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\digests\SHA3Digest.cs" />
@@ -94,9 +96,9 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\multiplier\WNafPreCompInfo.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\BufferedStreamCipher.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\x509\KeyUsage.cs" />
-    <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\engines\SerpentEngineBase.cs" />
-    <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\security\DigestUtilities.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\DERExternalParser.cs" />
+    <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\security\DigestUtilities.cs" />
+    <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\engines\SerpentEngineBase.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\util\encoders\IEncoder.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\TlsRsaSigner.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecT571Field.cs" />
@@ -111,15 +113,17 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\WebSocket\WebSocketResponse.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SignalRCore\HubConnection.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\TlsPeer.cs" />
-    <Compile Include="Assets\Base\IronSource\DemoScene\IronSourceDemoScript.cs" />
+    <Compile Include="Assets\IronSource\DemoScene\IronSourceDemoScript.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\multiplier\WNafUtilities.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SignalR\Messages\ServerMessages.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\Examples\LitJson\Lexer.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\ASN1OctetStringParser.cs" />
     <Compile Include="Assets\Scripts\Mosframe\DynamicVScrollView.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourcePlacement.cs" />
     <Compile Include="Assets\Common\F4A\F4AMobileThird\Scripts\Manager\Audio\AudioManager.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SignalR\Transports\ServerSentEventsTransport.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\BerSequence.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceConstants.cs" />
     <Compile Include="Assets\Spine\spine-unity\Components\SkeletonAnimator.cs" />
     <Compile Include="Assets\Base\3Party\Adjust\Unity\AdjustSessionFailure.cs" />
     <Compile Include="Assets\Spine\spine-unity\Asset Types\RegionlessAttachmentLoader.cs" />
@@ -138,7 +142,6 @@
     <Compile Include="Assets\Scripts\EffectTouch.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\generators\DHKeyGeneratorHelper.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecP256K1Curve.cs" />
-    <Compile Include="Assets\Base\IronSource\Scripts\IronSource.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\engines\RC4Engine.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Controllers\BoxController\BaseScene.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\parameters\DesEdeParameters.cs" />
@@ -152,10 +155,8 @@
     <Compile Include="Assets\Base\FacebookSDK\Examples\Windows\FBWindowsA2UNotificationsManager.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Popups\RewardPackBox\RewardPackElement.cs" />
     <Compile Include="Assets\Common\F4A\F4AMobileThird\Scripts\Manager\ShephertzManager\ShephertzManager.GiftCode.cs" />
-    <Compile Include="Assets\Base\IronSource\Scripts\IronSourceInitializationAndroid.cs" />
     <Compile Include="Assets\Scripts\ToolsExtend\NotificationTimeType.cs" />
     <Compile Include="Assets\Spine\spine-unity\Modules\Timeline\SpineAnimationState\SpineAnimationStateClip.cs" />
-    <Compile Include="Assets\Base\IronSource\Scripts\IronSourceInitilizer.cs" />
     <Compile Include="Assets\Base\3Party\Adjust\Unity\AdjustEventFailure.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\BERBitString.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\AlertDescription.cs" />
@@ -173,7 +174,9 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\DerEnumerated.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\InvalidCipherTextException.cs" />
     <Compile Include="Assets\Scripts\RemoteSettingsHandler.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IUnityLevelPlayRewardedVideoManual.cs" />
     <Compile Include="Assets\Common\F4A\F4AMobileThird\Scripts\Manager\Analytics\EventsManager.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceBannerAndroid.cs" />
     <Compile Include="Assets\Spine\spine-unity\Components\SkeletonAnimation.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Datas\StarChestData.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\engines\AesFastEngine.cs" />
@@ -195,6 +198,7 @@
     <Compile Include="Assets\Base\FacebookSDK\Examples\Mobile\Scripts\UIInputHelper.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralUISpace.cs" />
     <Compile Include="Assets\Scripts\GameControll.cs" />
+    <Compile Include="Assets\MyTools\Unity-Logs-Viewer\Reporter\Reporter.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SocketIO\Events\EventNames.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\multiplier\FixedPointCombMultiplier.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\Logger\DefaultLogger.cs" />
@@ -205,7 +209,6 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\util\BigIntegers.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecT131FieldElement.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\ASN1StreamParser.cs" />
-    <Compile Include="Assets\Base\IronSource\Scripts\IronSourceSegment.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\PlatformSupport\TcpClient\WinRT\DataReaderWriterStream.cs" />
     <Compile Include="Assets\Spine\spine-unity\Modules\SkeletonRenderSeparator\SkeletonPartsRenderer.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\paddings\PaddedBufferedBlockCipher.cs" />
@@ -221,7 +224,9 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SocketIO\Transports\ITransport.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\Chacha20Poly1305.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\parameters\RsaKeyParameters.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceSegmentAndroid.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\IAsn1ApplicationSpecificParser.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceInterstitialAndroid.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\parameters\ParametersWithIV.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\DerGeneralizedTime.cs" />
     <Compile Include="Assets\Common\F4A\F4AMobileThird\Scripts\Manager\BuildManager.cs" />
@@ -243,6 +248,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecP160R2Point.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\TlsAgreementCredentials.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Controllers\IapController\IapControllerBase.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IUnityRewardedVideo.cs" />
     <Compile Include="Assets\Scripts\GameUtilsOld.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecT409R1Point.cs" />
     <Compile Include="Assets\Scripts\MoreApp\Number_level_passed_to_rate.cs" />
@@ -258,11 +264,11 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\ECPoint.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Popups\PopupReward\PopupRewardBase.cs" />
     <Compile Include="Assets\Common\F4A\F4ACore\Scripts\F4AUtils.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceBannerLevelPlayAndroid.cs" />
     <Compile Include="Assets\Spine\spine-csharp\EventData.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\util\io\TeeInputStream.cs" />
     <Compile Include="Assets\Scripts\Mosframe\Item2.cs" />
     <Compile Include="Assets\Scripts\ToolsExtend\NotificationSystem.cs" />
-    <Compile Include="Assets\Base\IronSource\Scripts\IUnityInitialization.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SocketIO\HandshakeData.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\nist\NISTNamedCurves.cs" />
     <Compile Include="Assets\Common\F4A\Utils\Scripts\DebugConsole.cs" />
@@ -305,13 +311,12 @@
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Utility\Helper.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\GSocket\UserData\UserDataServices.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecT163FieldElement.cs" />
-    <Compile Include="Assets\Base\IronSource\Scripts\IronSourceBannerEvents.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IUnityInterstitial.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathBezier.cs" />
     <Compile Include="Assets\Scripts\MoreApp\Smart_more_app.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\BerSet.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\x509\X509Extensions.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Controllers\IapController\IAPDatabase.cs" />
-    <Compile Include="Assets\Base\IronSource\Scripts\AndroidAgent.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecP160R2Curve.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\AbstractTlsEncryptionCredentials.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\parameters\ParametersWithRandom.cs" />
@@ -319,12 +324,12 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\teletrust\TeleTrusTNamedCurves.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecT131Field.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\parameters\IesWithCipherParameters.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceRewardedVideoEvents.cs" />
     <Compile Include="Assets\Scripts\Mosframe\RichText.cs" />
     <Compile Include="Assets\Spine\spine-unity\Modules\SkeletonGraphic\SkeletonGraphicMirror.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\GSocket\Messages\MessageRequest.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\TlsECDheKeyExchange.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\TlsAeadCipher.cs" />
-    <Compile Include="Assets\Base\IronSource\Scripts\IronSourceSegmentAndroid.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\GSocket\Messages\GMessages.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\TlsCipherFactory.cs" />
     <Compile Include="Assets\Scripts\SettingPause.cs" />
@@ -332,7 +337,6 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\util\encoders\HexEncoder.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\parameters\DesParameters.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\LazyASN1InputStream.cs" />
-    <Compile Include="Assets\Base\IronSource\Scripts\IronSourceRewardedVideoEvents.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\engines\RFC3394WrapEngine.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\parameters\RsaPrivateCrtKeyParameters.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\CipherKeyGenerator.cs" />
@@ -347,6 +351,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\raw\Nat320.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\DerUniversalString.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SignalR\Transports\PollingTransport.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IUnityBanner.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecP192R1Field.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Controllers\AdmobAds.cs" />
     <Compile Include="Assets\Base\3Party\Adjust\Unity\Adjust.cs" />
@@ -395,10 +400,8 @@
     <Compile Include="Assets\Common\F4A\F4AMobileThird\Scripts\Manager\DailyReward\WorldClock.cs" />
     <Compile Include="Assets\Scripts\Loading.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\util\io\pem\PemWriter.cs" />
-    <Compile Include="Assets\Base\IronSource\Scripts\IUnityLevelPlayBanner.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Popups\ConfirmBox\ConfirmBox.cs" />
     <Compile Include="Assets\Demigiant\DOTweenPro\DOTweenAnimation.cs" />
-    <Compile Include="Assets\Base\IronSource\Scripts\UnsupportedPlatformAgent.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplines.cs" />
     <Compile Include="Assets\Common\F4A\F4AMobileThird\Scripts\Manager\DailyReward\DailyRewardsCore.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\IDSA.cs" />
@@ -406,8 +409,6 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\parameters\DHKeyGenerationParameters.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\ASN1Generator.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecT131R1Point.cs" />
-    <Compile Include="Assets\Base\IronSource\Scripts\IronSourceImpressionData.cs" />
-    <Compile Include="Assets\Base\IronSource\Scripts\IronSourceRewardedVideoLevelPlayAndroid.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\Forms\Implementations\HTTPMultiPartForm.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\Authentication\Digest.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Popups\PopupReward\RewardIAPElement.cs" />
@@ -418,22 +419,22 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\x509\ReasonFlags.cs" />
     <Compile Include="Assets\Scripts\EffectStart.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecT409K1Curve.cs" />
-    <Compile Include="Assets\Base\IronSource\Scripts\IronSourcePlacement.cs" />
     <Compile Include="Assets\Scripts\Mosframe\DynamicScrollViewItemExample.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Controllers\HomeController\AvatarBar.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecT193R2Curve.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecT233FieldElement.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\util\io\pem\PemObject.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\digests\RipeMD160Digest.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceUtils.cs" />
     <Compile Include="Assets\Common\F4A\ZeichenKraftwerk\CryptoPlayerPrefs\CPlayerPrefs.cs" />
     <Compile Include="Assets\Base\3Party\Adjust\3rd Party\SimpleJSON.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralEventsListeners.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Utility\Service\GameServicesBase.cs" />
     <Compile Include="Assets\Scripts\ItemPlusBall.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\ServerSentEvents\EventSource.cs" />
-    <Compile Include="Assets\Base\IronSource\Scripts\IUnityImpressionData.cs" />
     <Compile Include="Assets\Base\FacebookSDK\Examples\CloudAndroid\Scripts\SettingsMenu.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\LegacyTlsClient.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceRewardedVideoLevelPlayManualAndroid.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\parameters\GOST3410ValidationParameters.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\LimitedInputStream.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\parameters\MqvPublicParameters.cs" />
@@ -449,6 +450,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\TlsSessionImpl.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\SignerInputBuffer.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\Asn1Tags.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceSegment.cs" />
     <Compile Include="Assets\Spine\spine-unity\Components\BoneFollower.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Controllers\IapController\ShopBox\InappBox.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\Caching\HTTPCacheService.cs" />
@@ -460,10 +462,10 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecT163R1Point.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecT233K1Curve.cs" />
     <Compile Include="Assets\Scripts\StartGame.cs" />
-    <Compile Include="Assets\Base\IronSource\Scripts\IronSourceAdInfo.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\prng\CryptoApiRandomGenerator.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\digests\MD4Digest.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\digests\RipeMD128Digest.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IUnityLevelPlayRewardedVideo.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\modes\CcmBlockCipher.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\parameters\ParametersWithSBox.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\Cookies\Cookie.cs" />
@@ -482,11 +484,11 @@
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Utility\TimeManager.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\raw\Nat.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\DerVideotexString.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceRewardedVideoLevelPlayAndroid.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\SupplementalDataEntry.cs" />
     <Compile Include="Assets\Scripts\Mosframe\DynamicHScrollView.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\BufferedAeadBlockCipher.cs" />
     <Compile Include="Assets\Spine\spine-unity\Modules\Timeline\PlayableHandle Component\SpinePlayableHandleBase.cs" />
-    <Compile Include="Assets\Base\IronSource\Scripts\IronSourceError.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\x509\PEMParser.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\TlsSession.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\x509\X509Certificate.cs" />
@@ -525,6 +527,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\util\zlib\JZlib.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecT131R2Point.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\Statistics\Statistics.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IUnityLevelPlayBanner.cs" />
     <Compile Include="Assets\Spine\spine-unity\Modules\SkeletonUtility Modules\SkeletonUtilityGroundConstraint.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\parameters\GOST3410Parameters.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecP256R1Curve.cs" />
@@ -550,6 +553,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\parameters\GOST3410PublicKeyParameters.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\parameters\DHValidationParameters.cs" />
     <Compile Include="Assets\Scripts\OffGameObject.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceImpressionData.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\IVerifierFactoryProvider.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\TestingZLegacyExt.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\parameters\ECPublicKeyParameters.cs" />
@@ -562,6 +566,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\Asn1OctetString.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecT163K1Point.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\parameters\ECDomainParameters.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceError.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Controllers\GamePlayController\ComboSystem.cs" />
     <Compile Include="Assets\Common\F4A\F4AMobileThird\Scripts\Manager\Firebase\FirebaseManager.Messaging.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SignalRCore\Transports\WebsocketTransport.cs" />
@@ -570,14 +575,11 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\ASN1SetParser.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\misc\NetscapeCertType.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecP256K1Point.cs" />
-    <Compile Include="Assets\Base\IronSource\Scripts\IronSourceInterstitialEvents.cs" />
     <Compile Include="Assets\Scripts\CheckAdsFull.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\PlatformSupport\IO\File.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecT571FieldElement.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\paddings\X923Padding.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\BigInteger.cs" />
-    <Compile Include="Assets\Base\IronSource\Scripts\IronSourceEvents.cs" />
-    <Compile Include="Assets\Base\IronSource\Scripts\IUnityRewardedVideo.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\PrfAlgorithm.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\engines\CamelliaWrapEngine.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\digests\Sha512tDigest.cs" />
@@ -612,11 +614,9 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\signers\RsaDigestSigner.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\modes\OpenPgpCfbBlockCipher.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\TlsServer.cs" />
-    <Compile Include="Assets\Base\IronSource\Scripts\IUnityBanner.cs" />
     <Compile Include="Assets\Base\3Party\Adjust\Unity\AdjustConfig.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\Examples\SignalR\ConnectionStatusSample.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\IDerivationParameters.cs" />
-    <Compile Include="Assets\Base\IronSource\Scripts\IronSourceBannerLevelPlayAndroid.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\util\io\pem\PemObjectGenerator.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\engines\RFC3211WrapEngine.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\modes\EAXBlockCipher.cs" />
@@ -635,6 +635,8 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\HTTPMethods.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\Check.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\parameters\KdfParameters.cs" />
+    <Compile Include="Assets\IronSource\Scripts\AndroidAgent.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceBannerEvents.cs" />
     <Compile Include="Assets\Spine\spine-csharp\Slot.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\parameters\DHKeyParameters.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\digests\MD5Digest.cs" />
@@ -652,7 +654,6 @@
     <Compile Include="Assets\Base\3Party\Adjust\Unity\AdjustEnvironment.cs" />
     <Compile Include="Assets\Spine\spine-unity\Modules\Timeline\SpineAnimationState\SpineAnimationStateMixerBehaviour.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\ClientCertificateType.cs" />
-    <Compile Include="Assets\Base\IronSource\Scripts\IUnityLevelPlayRewardedVideo.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\engines\ChaCha7539Engine.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\Extensions\HeaderParser.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecP160R1Curve.cs" />
@@ -675,10 +676,8 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\MacAlgorithm.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\djb\Curve25519Point.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\TlsClientContext.cs" />
-    <Compile Include="Assets\Base\IronSource\Scripts\IUnityLevelPlayInterstitial.cs" />
-    <Compile Include="Assets\Base\IronSource\Scripts\IronSourceImpressionDataAndroid.cs" />
-    <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\AsymmetricCipherKeyPair.cs" />
     <Compile Include="Assets\Spine\spine-csharp\Attachments\VertexAttachment.cs" />
+    <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\AsymmetricCipherKeyPair.cs" />
     <Compile Include="Assets\Scripts\SettingStart.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\engines\HC128Engine.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SignalR\Hubs\IHub.cs" />
@@ -690,6 +689,7 @@
     <Compile Include="Assets\Common\F4A\F4ACore\Scripts\F4AEnum.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\paddings\BlockCipherPadding.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\BERSetGenerator.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceInitilizer.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\GSocket\GException.cs" />
     <Compile Include="Assets\Base\3Party\Adjust\Unity\AdjustAppStoreSubscription.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\TlsBlockCipher.cs" />
@@ -697,6 +697,7 @@
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Popups\PopupReward\RewardElement.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\HTTPManager.cs" />
     <Compile Include="Assets\LeanTween\Examples\Archived\OldGUIExamplesCS.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceOfferwallAndroid.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\IMac.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\DerBMPString.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\Caching\HTTPCacheMaintananceParams.cs" />
@@ -719,6 +720,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\LongArray.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\x9\DHPublicKey.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\GSocket\PingPanel.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceInterstitialLevelPlayAndroid.cs" />
     <Compile Include="Assets\Scripts\DataString.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\ConnectionEnd.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\djb\Curve25519Field.cs" />
@@ -726,7 +728,8 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecT163K1Curve.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\Examples\SignalR\Json Encoders\JSonDotnetEncoder.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SocketIO\Packet.cs" />
-    <Compile Include="Assets\Base\IronSource\Scripts\IronSourceMediationSettings.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceConfig.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceMediationSettings.cs" />
     <Compile Include="Assets\Base\3Party\Adjust\Unity\AdjustEventSuccess.cs" />
     <Compile Include="Assets\Base\FacebookSDK\Examples\Mobile\Scripts\SubMenus\TournamentsMenu.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\BerOutputStream.cs" />
@@ -741,6 +744,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\parameters\KeyParameter.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\Asn1EncodableVector.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\engines\IesEngine.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IUnityLevelPlayInterstitial.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\util\Arrays.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\OutputLengthException.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Utility\CrystalFramework\Utility\SafeAreaTop.cs" />
@@ -752,11 +756,9 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\macs\CMac.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\engines\DesEdeWrapEngine.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\LogoCinematic.cs" />
-    <Compile Include="Assets\Base\IronSource\Scripts\IronSourceConstants.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralCameraShake.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\TlsEncryptionCredentials.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SignalR\Transports\TransportBase.cs" />
-    <Compile Include="Assets\Base\IronSource\Scripts\IUnityRewardedVideoManual.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\x509\X509DefaultEntryConverter.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\HTTPConnection.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecT409R1Curve.cs" />
@@ -779,6 +781,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\WebSocket\Frames\WebSocketFrameReader.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\djb\Curve25519.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\raw\Nat512.cs" />
+    <Compile Include="Assets\MyTools\Unity-Logs-Viewer\Reporter\ReporterGUI.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\Extensions\KeyValuePairList.cs" />
     <Compile Include="Assets\Base\3Party\Joker2X\Localize\Scripts\Internal\EditorCoroutine.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\misc\VerisignCzagExtension.cs" />
@@ -786,7 +789,7 @@
     <Compile Include="Assets\Spine\spine-csharp\BoneData.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Controllers\MusicManager\PlaySoundOnClick.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\x509\DistributionPoint.cs" />
-    <Compile Include="Assets\Base\IronSource\Scripts\IronSourceIAgent.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IUnitySegment.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\ServerSentEvents\Message.cs" />
     <Compile Include="Assets\Common\F4A\PoolManager\PathologicalGames\PoolManager\SpawnPool.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\WebSocket\Frames\WebSocketFrameTypes.cs" />
@@ -804,6 +807,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\util\collections\EnumerableProxy.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\ICipherParameters.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Controllers\IapController\RewardIAPBox.cs" />
+    <Compile Include="Assets\IronSource\Scripts\UnsupportedPlatformAgent.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\engines\Salsa20Engine.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\ByteQueueStream.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\digests\Sha1Digest.cs" />
@@ -825,11 +829,9 @@
     <Compile Include="Assets\Spine\spine-unity\Mesh Generation\Unused\ISimpleMeshGenerator.cs" />
     <Compile Include="Assets\Spine\spine-unity\Mesh Generation\Unused\ArraysSubmeshedMeshGenerator.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\HashAlgorithm.cs" />
-    <Compile Include="Assets\Base\IronSource\Scripts\IronSourceEventsDispatcher.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\digests\Sha512Digest.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\Decompression\Deflate.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\engines\DesEngine.cs" />
-    <Compile Include="Assets\Base\IronSource\Scripts\IronSourceRewardedVideoLevelPlayManualAndroid.cs" />
     <Compile Include="Assets\LeanTween\Examples\Archived\TestingPunch.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\util\Platform.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Utility\EffectMoney\MoneyEffect.cs" />
@@ -851,9 +853,10 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\prng\IRandomGenerator.cs" />
     <Compile Include="Assets\Base\3Party\Adjust\Unity\AdjustEvent.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\modes\gcm\Tables8kGcmMultiplier.cs" />
-    <Compile Include="Assets\Base\IronSource\Scripts\IUnityLevelPlayRewardedVideoManual.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\CertChainType.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceImpressionDataAndroid.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\util\zlib\InfCodes.cs" />
+    <Compile Include="Assets\MyTools\Unity-Logs-Viewer\Reporter\MultiKeyDictionary.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\LegacyTlsAuthentication.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\Examples\SocketIO\SocketIO Json Encoders\JsonDotNetEncoder.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\parameters\GOST3410KeyParameters.cs" />
@@ -915,7 +918,6 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SignalR\Authentication\IAuthenticationProvider.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\parameters\DHPublicKeyParameters.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Utility\ReadOnlyAttribute.cs" />
-    <Compile Include="Assets\Base\IronSource\Scripts\IronSourceInterstitialAndroid.cs" />
     <Compile Include="Assets\Scripts\BackToRetry.cs" />
     <Compile Include="Assets\Spine\spine-csharp\IkConstraint.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\TlsCredentials.cs" />
@@ -934,11 +936,12 @@
     <Compile Include="Assets\Common\F4A\F4AMobileThird\Scripts\Manager\Firebase\FirebaseManager.Analytic.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecP160R1FieldElement.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\x509\IX509Extension.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IUnityOfferwall.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSource.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\x509\BasicConstraints.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\sec\SECNamedCurves.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\macs\Poly1305.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\Extensions\Extensions.cs" />
-    <Compile Include="Assets\Base\IronSource\Scripts\iOSAgent.cs" />
     <Compile Include="Assets\Scripts\AdsItem.cs" />
     <Compile Include="Assets\Scripts\ToolsExtend\CNotificationAndroid.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Utility\Service\SingletonClass.cs" />
@@ -948,7 +951,6 @@
     <Compile Include="Assets\Scripts\MoreAppController.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\TlsExtensionsUtilities.cs" />
     <Compile Include="Assets\Common\F4A\F4AMobileThird\Scripts\Manager\SocialManager\SocialManager.GameServices.cs" />
-    <Compile Include="Assets\Base\IronSource\Scripts\IronSourceJSON.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\IBlockResult.cs" />
     <Compile Include="Assets\Base\3Party\Joker2X\Localize\Scripts\Internal\Localization.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\digests\LongDigest.cs" />
@@ -983,13 +985,14 @@
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Datas\LevelChestData.cs" />
     <Compile Include="Assets\Spine\spine-csharp\Attachments\PathAttachment.cs" />
     <Compile Include="Assets\Spine\spine-csharp\Attachments\AttachmentType.cs" />
-    <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\util\zlib\InfTree.cs" />
+    <Compile Include="Assets\MyTools\Unity-Logs-Viewer\Reporter\ReporterMessageReceiver.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecP128R1Point.cs" />
-    <Compile Include="Assets\Common\F4A\F4AMobileThird\Scripts\Manager\ShephertzManager\ShephertzManager.Administrator.cs" />
+    <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\util\zlib\InfTree.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\Extensions\HeartbeatManager.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\parameters\ECKeyParameters.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\Certificate.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\Logger\ILogger.cs" />
+    <Compile Include="Assets\Common\F4A\F4AMobileThird\Scripts\Manager\ShephertzManager\ShephertzManager.Administrator.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\digests\KeccakDigest.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\TlsAuthentication.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\ExtensionType.cs" />
@@ -1013,7 +1016,6 @@
     <Compile Include="Assets\Base\3Party\Joker2X\Localize\Scripts\Internal\LocalizeService.cs" />
     <Compile Include="Assets\Base\FacebookSDK\Examples\Windows\FBWindowsADSManager.cs" />
     <Compile Include="Assets\Spine\spine-csharp\BlendMode.cs" />
-    <Compile Include="Assets\Base\IronSource\Scripts\IronSourceRewardedVideoAndroid.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\agreement\DHBasicAgreement.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\ICertificateVerifyer.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\Examples\HTTP\TextureDownloadSample.cs" />
@@ -1035,13 +1037,11 @@
     <Compile Include="Assets\Spine\spine-csharp\TransformConstraint.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralAdvancedTechniques.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\TlsNullCipher.cs" />
-    <Compile Include="Assets\Base\IronSource\Scripts\IronSourceUtils.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecP128R1Field.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\security\SecurityUtilityException.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\x9\X9ECPoint.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\Extensions\CircularBuffer.cs" />
-    <Compile Include="Assets\Base\IronSource\Scripts\IUnitySegment.cs" />
-    <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\AbstractTlsContext.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IUnityRewardedVideoManual.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\ECPointMap.cs" />
     <Compile Include="Assets\Spine\spine-csharp\Attachments\Attachment.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecT163R2Curve.cs" />
@@ -1049,14 +1049,16 @@
     <Compile Include="Assets\Scripts\OutGame.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\Examples\SampleSelector.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\TlsServerContext.cs" />
-    <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\misc\MiscObjectIdentifiers.cs" />
+    <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\AbstractTlsContext.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Utility\UIParticleSystem.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralBasics2d.cs" />
     <Compile Include="Assets\Common\F4A\F4AMobileThird\Scripts\Manager\Analytics\AnalyticManager.cs" />
+    <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\misc\MiscObjectIdentifiers.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\DigitallySigned.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\DatagramTransport.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\util\FilterStream.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SignalRCore\HelperClasses.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IUnityInitialization.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\BerApplicationSpecificParser.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\PlatformSupport\IO\Infos.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecT571R1Curve.cs" />
@@ -1076,6 +1078,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\macs\ISO9797Alg3Mac.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\ec\CustomNamedCurves.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Analytic\RemoteConfigController.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceAdInfo.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\Asn1InputStream.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\engines\NoekeonEngine.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SocketIO\Events\EventDescriptor.cs" />
@@ -1100,6 +1103,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\x509\CRLDistPoint.cs" />
     <Compile Include="Assets\Base\FacebookSDK\Examples\CloudAndroid\Scripts\Menu.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\Examples\LitJson\JsonData.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceInitializationAndroid.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\IVerifier.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\raw\Nat224.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\SignatureAlgorithm.cs" />
@@ -1152,6 +1156,7 @@
     <Compile Include="Assets\Common\F4A\F4AMobileThird\Scripts\Manager\Firebase\FirebaseManager.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\BufferedIesCipher.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Analytic\AnalyticsController.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceIAgent.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\ServerName.cs" />
     <Compile Include="Assets\Spine\spine-unity\SkeletonUtility\SkeletonUtilityBone.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanTest.cs" />
@@ -1161,6 +1166,7 @@
     <Compile Include="Assets\Scripts\KeepCamvas.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Utility\EffectMoney\MoneyEffectController.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\encodings\OaepEncoding.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceRewardedVideoManualAndroid.cs" />
     <Compile Include="Assets\Common\F4A\F4AMobileThird\Scripts\Others\MiniJSON.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\util\Enums.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\x9\DHDomainParameters.cs" />
@@ -1184,6 +1190,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\generators\ECKeyPairGenerator.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSpline2d.cs" />
     <Compile Include="Assets\Scripts\ControlEndgame.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IUnityImpressionData.cs" />
     <Compile Include="Assets\Spine\spine-unity\Modules\Ragdoll\SkeletonRagdoll.cs" />
     <Compile Include="Assets\Scripts\ToolsExtend\NotificationItem.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\modes\GCMBlockCipher.cs" />
@@ -1203,12 +1210,12 @@
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Analytic\Config.cs" />
     <Compile Include="Assets\Scripts\AdCamera.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\EncryptionAlgorithm.cs" />
-    <Compile Include="Assets\Base\IronSource\Scripts\IUnityOfferwall.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\modes\SicBlockCipher.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\cryptopro\GOST3410NamedParameters.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecP192K1Curve.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\engines\AesEngine.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Controllers\HomeController\RankSceneController.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceEventsDispatcher.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\engines\IdeaEngine.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\IVerifierFactory.cs" />
     <Compile Include="Assets\Spine\spine-unity\Modules\Timeline\SpineSkeletonFlip\SpineSkeletonFlipTrack.cs" />
@@ -1243,7 +1250,6 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\TlsFatalAlert.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\Examples\LitJson\IJsonWrapper.cs" />
     <Compile Include="Assets\Common\F4A\F4AMobileThird\Scripts\Data\SaveLoadDataManager.cs" />
-    <Compile Include="Assets\Base\IronSource\Scripts\IronSourceBannerAndroid.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\parameters\DsaPrivateKeyParameters.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\TlsDheKeyExchange.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\ocsp\ResponderID.cs" />
@@ -1257,6 +1263,7 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\ASN1SequenceParser.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\generators\DsaKeyPairGenerator.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\x509\X509CrlEntry.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceRewardedVideoAndroid.cs" />
     <Compile Include="Assets\Base\FacebookSDK\Examples\CloudAndroid\Scripts\SavePage.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\Forms\HTTPFormBase.cs" />
     <Compile Include="Assets\Base\FacebookSDK\Examples\Mobile\Scripts\SubMenus\MainMenu.cs" />
@@ -1302,6 +1309,7 @@
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Utility\Event\ServiceFactory.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\BERSequenceParser.cs" />
     <Compile Include="Assets\Spine\spine-csharp\Attachments\PointAttachment.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceJSON.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\x509\TBSCertificateStructure.cs" />
     <Compile Include="Assets\Base\FacebookSDK\Examples\CloudAndroid\Scripts\AdsPage.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\modes\CtsBlockCipher.cs" />
@@ -1319,14 +1327,13 @@
     <Compile Include="Assets\Base\FacebookSDK\Examples\Windows\FBWindowsTournamentsManager.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\custom\sec\SecT131R1Curve.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\CertificateStatusType.cs" />
-    <Compile Include="Assets\Base\IronSource\Scripts\IUnityInterstitial.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\engines\ChaChaEngine.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\Ssl3Mac.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\engines\Cast5Engine.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\IAsn1String.cs" />
     <Compile Include="Assets\Common\F4A\F4AMobileThird\Scripts\Manager\Firebase\FirebaseManager.Crashlytic.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\asn1\IAsn1Convertible.cs" />
-    <Compile Include="Assets\Base\IronSource\Scripts\IronSourceOfferwallAndroid.cs" />
+    <Compile Include="Assets\IronSource\Scripts\IronSourceInterstitialEvents.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\paddings\TbcPadding.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\ec\multiplier\WNafL2RMultiplier.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\security\SignatureException.cs" />
@@ -1345,7 +1352,6 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\ServerSentEvents\EventSourceResponse.cs" />
     <Compile Include="Assets\Scripts\SortLayer.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\TlsECDHKeyExchange.cs" />
-    <Compile Include="Assets\Base\IronSource\Scripts\IronSourceRewardedVideoManualAndroid.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\TlsEccUtilities.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\Examples\LitJson\JsonException.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\tls\KeyExchangeAlgorithm.cs" />
@@ -1357,10 +1363,9 @@
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Utility\DisableMe.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SocketIO\Socket.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Controllers\MusicManager\PlayOnAwake.cs" />
-    <Compile Include="Assets\Base\IronSource\Scripts\IronSourceInterstitialLevelPlayAndroid.cs" />
+    <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\PlatformSupport\IO\FileEnums.cs" />
     <Compile Include="Assets\Scripts\Mosframe\DynamicScrollView.cs" />
     <Compile Include="Assets\Common\F4A\F4AMobileThird\Scripts\Data\BaseDataController.cs" />
-    <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\PlatformSupport\IO\FileEnums.cs" />
     <Compile Include="Assets\Base\3Party\Adjust\Unity\AdjustThirdPartySharing.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\BufferedCipherBase.cs" />
     <Compile Include="Assets\Spine\spine-csharp\Bone.cs" />
@@ -1379,7 +1384,6 @@
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\encodings\ISO9796d1Encoding.cs" />
     <Compile Include="Assets\Common\F4A\F4AMobileThird\Scripts\Data\IBaseDataInfo.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Controllers\AppOpenAdManager.cs" />
-    <Compile Include="Assets\Base\IronSource\Scripts\IronSourceConfig.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\math\field\PrimeField.cs" />
     <Compile Include="Assets\Base\3Party\Best HTTP (Pro)\BestHTTP\SecureProtocol\crypto\BufferedBlockCipher.cs" />
     <Compile Include="Assets\Base\00_BaseCode\Scripts\Utility\SimplePool2.cs" />
@@ -2255,6 +2259,7 @@
     <None Include="Assets\Resources\mapdata2934.txt" />
     <None Include="Assets\Resources\mapdata541.txt" />
     <None Include="Assets\Resources\mapdata979.txt" />
+    <None Include="Assets\StreamingAssets\build_info.txt" />
     <None Include="Assets\Resources\mapdata1154.txt" />
     <None Include="Assets\Resources\mapdata932.txt" />
     <None Include="Assets\Resources\mapdata1424.txt" />
@@ -3928,7 +3933,7 @@
     <None Include="Assets\Resources\mapdata2253.txt" />
     <None Include="Assets\Resources\mapdata23.txt" />
     <None Include="Assets\Resources\mapdata2020.txt" />
-    <None Include="Assets\Base\IronSource\Plugins\Android\IronSource.plugin\AndroidManifest.xml" />
+    <None Include="Assets\IronSource\Plugins\Android\IronSource.plugin\AndroidManifest.xml" />
     <None Include="Assets\Resources\mapdata1489.txt" />
     <None Include="Assets\Resources\mapdata639.txt" />
     <None Include="Assets\Spine\spine-unity\Modules\Shaders\Straight Alpha\Spine-Straight-Skeleton-Fill.shader" />
@@ -4812,6 +4817,9 @@
     <Reference Include="UnityEngine.Advertisements.Editor">
       <HintPath>Library\ScriptAssemblies\UnityEngine.Advertisements.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="com.unity.purchasing.udp.Editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.purchasing.udp.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Sirenix.OdinInspector.Attributes">
       <HintPath>Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll</HintPath>
     </Reference>
@@ -4898,6 +4906,9 @@
     </Reference>
     <Reference Include="DOTween43">
       <HintPath>Assets\Demigiant\DOTween\DOTween43.dll</HintPath>
+    </Reference>
+    <Reference Include="UDP">
+      <HintPath>Library\PackageCache\com.unity.purchasing.udp@2.0.0\Runtime\UDP.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>D:\Unity2020.3.15f2\2020.3.38f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll</HintPath>

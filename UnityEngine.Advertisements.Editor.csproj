@@ -478,6 +478,9 @@
     <Reference Include="DOTween43">
       <HintPath>Assets\Demigiant\DOTween\DOTween43.dll</HintPath>
     </Reference>
+    <Reference Include="UDP">
+      <HintPath>Library\PackageCache\com.unity.purchasing.udp@2.0.0\Runtime\UDP.dll</HintPath>
+    </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
     </Reference>

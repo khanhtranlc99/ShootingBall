@@ -8,10 +8,25 @@
             url "https://maven.google.com"
         }
         maven {
-            url "https://android-sdk.is.com/" // Assets/Base/IronSource/Editor/IronSourceSDKDependencies.xml:9
+            url "https://android-sdk.is.com/" // Assets/IronSource/Editor/IronSourceSDKDependencies.xml:9, Assets/IronSource/Editor/ISAdColonyAdapterDependencies.xml:16, Assets/IronSource/Editor/ISAdMobAdapterDependencies.xml:16, Assets/IronSource/Editor/ISAppLovinAdapterDependencies.xml:8, Assets/IronSource/Editor/ISAPSAdapterDependencies.xml:8, Assets/IronSource/Editor/ISChartboostAdapterDependencies.xml:8, Assets/IronSource/Editor/ISFacebookAdapterDependencies.xml:16, Assets/IronSource/Editor/ISFyberAdapterDependencies.xml:16, Assets/IronSource/Editor/ISInMobiAdapterDependencies.xml:8, Assets/IronSource/Editor/ISLiftoffAdapterDependencies.xml:16, Assets/IronSource/Editor/ISMintegralAdapterDependencies.xml:48, Assets/IronSource/Editor/ISMyTargetAdapterDependencies.xml:8, Assets/IronSource/Editor/ISPangleAdapterDependencies.xml:8, Assets/IronSource/Editor/ISSuperAwesomeAdapterDependencies.xml:16, Assets/IronSource/Editor/ISVungleAdapterDependencies.xml:16
         }
         maven {
-            url "https://maven.google.com/" // Assets/Base/IronSource/Editor/IronSourceSDKDependencies.xml:17, Assets/Base/IronSource/Editor/IronSourceSDKDependencies.xml:25
+            url "https://maven.google.com/" // Assets/IronSource/Editor/IronSourceSDKDependencies.xml:17, Assets/IronSource/Editor/IronSourceSDKDependencies.xml:25, Assets/IronSource/Editor/ISAdColonyAdapterDependencies.xml:8, Assets/IronSource/Editor/ISAdMobAdapterDependencies.xml:8, Assets/IronSource/Editor/ISAppLovinAdapterDependencies.xml:15, Assets/IronSource/Editor/ISChartboostAdapterDependencies.xml:15, Assets/IronSource/Editor/ISFacebookAdapterDependencies.xml:8, Assets/IronSource/Editor/ISInMobiAdapterDependencies.xml:22, Assets/IronSource/Editor/ISLiftoffAdapterDependencies.xml:8, Assets/IronSource/Editor/ISMintegralAdapterDependencies.xml:40, Assets/IronSource/Editor/ISMyTargetAdapterDependencies.xml:15, Assets/IronSource/Editor/ISMyTargetAdapterDependencies.xml:27
+        }
+        maven {
+            url "https://repo.maven.apache.org/maven2/" // Assets/IronSource/Editor/ISFyberAdapterDependencies.xml:8, Assets/IronSource/Editor/ISInMobiAdapterDependencies.xml:15
+        }
+        maven {
+            url "https://dl-maven-android.mintegral.com/repository/mbridge_android_sdk_oversea/" // Assets/IronSource/Editor/ISMintegralAdapterDependencies.xml:8, Assets/IronSource/Editor/ISMintegralAdapterDependencies.xml:16, Assets/IronSource/Editor/ISMintegralAdapterDependencies.xml:24, Assets/IronSource/Editor/ISMintegralAdapterDependencies.xml:32
+        }
+        maven {
+            url "https://artifact.bytedance.com/repository/pangle/" // Assets/IronSource/Editor/ISPangleAdapterDependencies.xml:15
+        }
+        maven {
+            url "https://aa-sdk.s3-eu-west-1.amazonaws.com/android_repo/" // Assets/IronSource/Editor/ISSuperAwesomeAdapterDependencies.xml:8
+        }
+        maven {
+            url "https://jitpack.io/" // Assets/IronSource/Editor/ISVungleAdapterDependencies.xml:8
         }
         maven {
             url (unityProjectPath + "/Assets/GeneratedLocalRepo/Firebase/m2repository") // Packages/com.google.firebase.firestore/Firebase/Editor/FirestoreDependencies.xml:20, Packages/com.google.firebase.app/Firebase/Editor/AppDependencies.xml:22, Packages/com.google.firebase.messaging/Firebase/Editor/MessagingDependencies.xml:22, Packages/com.google.firebase.crashlytics/Firebase/Editor/CrashlyticsDependencies.xml:20, Packages/com.google.firebase.remote-config/Firebase/Editor/RemoteConfigDependencies.xml:20, Packages/com.google.firebase.analytics/Firebase/Editor/AnalyticsDependencies.xml:18
@@ -27,18 +42,27 @@ apply plugin: 'com.android.library'
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 // Android Resolver Dependencies Start
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0' // Assets/IronSource/Editor/ISInMobiAdapterDependencies.xml:22
+    implementation 'androidx.recyclerview:recyclerview:1.2.1' // Assets/IronSource/Editor/ISMintegralAdapterDependencies.xml:40
+    implementation 'com.adcolony:sdk:4.8.0' // Assets/IronSource/Editor/ISAdColonyAdapterDependencies.xml:8
     implementation 'com.android.support:appcompat-v7:25.3.1' // Facebook.Unity.Editor.AndroidSupportLibraryResolver.addSupportLibraryDependency
     implementation 'com.android.support:cardview-v7:25.3.1' // Facebook.Unity.Editor.AndroidSupportLibraryResolver.addSupportLibraryDependency
     implementation 'com.android.support:customtabs:25.3.1' // Facebook.Unity.Editor.AndroidSupportLibraryResolver.addSupportLibraryDependency
     implementation 'com.android.support:support-v4:25.3.1' // Facebook.Unity.Editor.AndroidSupportLibraryResolver.addSupportLibraryDependency
+    implementation 'com.applovin:applovin-sdk:11.7.1' // Assets/IronSource/Editor/ISAppLovinAdapterDependencies.xml:15
+    implementation 'com.chartboost:chartboost-sdk:9.2.0' // Assets/IronSource/Editor/ISChartboostAdapterDependencies.xml:15
+    implementation 'com.facebook.android:audience-network-sdk:6.13.7' // Assets/IronSource/Editor/ISFacebookAdapterDependencies.xml:8
     implementation 'com.facebook.android:facebook-applinks:[16.0,17)' // Assets/Base/FacebookSDK/Plugins/Editor/Dependencies.xml:6
     implementation 'com.facebook.android:facebook-core:[16.0,17)' // Assets/Base/FacebookSDK/Plugins/Editor/Dependencies.xml:5
     implementation 'com.facebook.android:facebook-gamingservices:[16.0,17)' // Assets/Base/FacebookSDK/Plugins/Editor/Dependencies.xml:9
     implementation 'com.facebook.android:facebook-login:[16.0,17)' // Assets/Base/FacebookSDK/Plugins/Editor/Dependencies.xml:7
     implementation 'com.facebook.android:facebook-share:[16.0,17)' // Assets/Base/FacebookSDK/Plugins/Editor/Dependencies.xml:8
-    implementation 'com.google.android.gms:play-services-ads-identifier:18.0.1' // Assets/Base/IronSource/Editor/IronSourceSDKDependencies.xml:17
+    implementation 'com.fyber:marketplace-sdk:8.2.2' // Assets/IronSource/Editor/ISFyberAdapterDependencies.xml:8
+    implementation 'com.google.android.exoplayer:exoplayer:2.17.1' // Assets/IronSource/Editor/ISMyTargetAdapterDependencies.xml:27
+    implementation 'com.google.android.gms:play-services-ads:21.5.0' // Assets/IronSource/Editor/ISAdMobAdapterDependencies.xml:8
+    implementation 'com.google.android.gms:play-services-ads-identifier:18.0.1' // Assets/IronSource/Editor/IronSourceSDKDependencies.xml:17
     implementation 'com.google.android.gms:play-services-base:18.1.0' // Packages/com.google.firebase.app/Firebase/Editor/AppDependencies.xml:17
-    implementation 'com.google.android.gms:play-services-basement:18.1.0' // Assets/Base/IronSource/Editor/IronSourceSDKDependencies.xml:25
+    implementation 'com.google.android.gms:play-services-basement:18.1.0' // Assets/IronSource/Editor/IronSourceSDKDependencies.xml:25
     implementation 'com.google.firebase:firebase-analytics:21.1.1' // Packages/com.google.firebase.analytics/Firebase/Editor/AnalyticsDependencies.xml:13
     implementation 'com.google.firebase:firebase-analytics-unity:9.5.0' // Packages/com.google.firebase.analytics/Firebase/Editor/AnalyticsDependencies.xml:18
     implementation 'com.google.firebase:firebase-app-unity:9.5.0' // Packages/com.google.firebase.app/Firebase/Editor/AppDependencies.xml:22
@@ -52,8 +76,32 @@ dependencies {
     implementation 'com.google.firebase:firebase-iid:21.1.0' // Packages/com.google.firebase.messaging/Firebase/Editor/MessagingDependencies.xml:17
     implementation 'com.google.firebase:firebase-messaging:23.0.8' // Packages/com.google.firebase.messaging/Firebase/Editor/MessagingDependencies.xml:13
     implementation 'com.google.firebase:firebase-messaging-unity:9.5.0' // Packages/com.google.firebase.messaging/Firebase/Editor/MessagingDependencies.xml:22
-    implementation 'com.ironsource.sdk:mediationsdk:7.2.7' // Assets/Base/IronSource/Editor/IronSourceSDKDependencies.xml:9
+    implementation 'com.inmobi.monetization:inmobi-ads:10.1.2' // Assets/IronSource/Editor/ISInMobiAdapterDependencies.xml:15
+    implementation 'com.ironsource.adapters:adcolonyadapter:4.3.14' // Assets/IronSource/Editor/ISAdColonyAdapterDependencies.xml:16
+    implementation 'com.ironsource.adapters:admobadapter:4.3.36' // Assets/IronSource/Editor/ISAdMobAdapterDependencies.xml:16
+    implementation 'com.ironsource.adapters:applovinadapter:4.3.37' // Assets/IronSource/Editor/ISAppLovinAdapterDependencies.xml:8
+    implementation 'com.ironsource.adapters:apsadapter:4.3.8' // Assets/IronSource/Editor/ISAPSAdapterDependencies.xml:8
+    implementation 'com.ironsource.adapters:chartboostadapter:4.3.11' // Assets/IronSource/Editor/ISChartboostAdapterDependencies.xml:8
+    implementation 'com.ironsource.adapters:facebookadapter:4.3.40' // Assets/IronSource/Editor/ISFacebookAdapterDependencies.xml:16
+    implementation 'com.ironsource.adapters:fyberadapter:4.3.24' // Assets/IronSource/Editor/ISFyberAdapterDependencies.xml:16
+    implementation 'com.ironsource.adapters:inmobiadapter:4.3.17' // Assets/IronSource/Editor/ISInMobiAdapterDependencies.xml:8
+    implementation 'com.ironsource.adapters:liftoffadapter:4.3.5' // Assets/IronSource/Editor/ISLiftoffAdapterDependencies.xml:16
+    implementation 'com.ironsource.adapters:mintegraladapter:4.3.13' // Assets/IronSource/Editor/ISMintegralAdapterDependencies.xml:48
+    implementation 'com.ironsource.adapters:mytargetadapter:4.1.16' // Assets/IronSource/Editor/ISMyTargetAdapterDependencies.xml:8
+    implementation 'com.ironsource.adapters:pangleadapter:4.3.17' // Assets/IronSource/Editor/ISPangleAdapterDependencies.xml:8
+    implementation 'com.ironsource.adapters:superawesomeadapter:4.1.6' // Assets/IronSource/Editor/ISSuperAwesomeAdapterDependencies.xml:16
+    implementation 'com.ironsource.adapters:vungleadapter:4.3.20' // Assets/IronSource/Editor/ISVungleAdapterDependencies.xml:16
+    implementation 'com.ironsource.sdk:mediationsdk:7.3.0.1' // Assets/IronSource/Editor/IronSourceSDKDependencies.xml:9
+    implementation 'com.mbridge.msdk.oversea:mbbanner:16.3.81' // Assets/IronSource/Editor/ISMintegralAdapterDependencies.xml:24
+    implementation 'com.mbridge.msdk.oversea:mbbid:16.3.81' // Assets/IronSource/Editor/ISMintegralAdapterDependencies.xml:32
+    implementation 'com.mbridge.msdk.oversea:newinterstitial:16.3.81' // Assets/IronSource/Editor/ISMintegralAdapterDependencies.xml:8
+    implementation 'com.mbridge.msdk.oversea:reward:16.3.81' // Assets/IronSource/Editor/ISMintegralAdapterDependencies.xml:16
+    implementation 'com.my.target:mytarget-sdk:5.16.3' // Assets/IronSource/Editor/ISMyTargetAdapterDependencies.xml:15
+    implementation 'com.pangle.global:ads-sdk:5.0.0.8' // Assets/IronSource/Editor/ISPangleAdapterDependencies.xml:15
     implementation 'com.parse.bolts:bolts-android:1.4.0' // Assets/Base/FacebookSDK/Plugins/Editor/Dependencies.xml:4
+    implementation 'com.vungle:publisher-sdk-android:6.12.1' // Assets/IronSource/Editor/ISVungleAdapterDependencies.xml:8
+    implementation 'io.liftoff:liftoffads:1.9.1' // Assets/IronSource/Editor/ISLiftoffAdapterDependencies.xml:8
+    implementation 'tv.superawesome.sdk.publisher:superawesome:8.5.4' // Assets/IronSource/Editor/ISSuperAwesomeAdapterDependencies.xml:8
 // Android Resolver Dependencies End
 **DEPS**}
 

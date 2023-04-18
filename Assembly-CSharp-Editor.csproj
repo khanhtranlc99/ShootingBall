@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Common\F4A\PoolManager\Editor\PathologicalGames\PoolManager\PreRuntimePoolItemInspector.cs" />
+    <Compile Include="Assets\MyTools\Unity-Logs-Viewer\Reporter\Editor\ReporterEditor.cs" />
     <Compile Include="Assets\Common\F4A\PoolManager\Editor\PathologicalGames\PoolManager\SpawnPoolInspector.cs" />
     <Compile Include="Assets\Spine\spine-unity\Modules\Timeline\SpineAnimationState\Editor\SpineAnimationStateDrawer.cs" />
     <Compile Include="Assets\Spine\spine-unity\Editor\SpineInspectorUtility.cs" />
@@ -71,20 +72,20 @@
     <Compile Include="Assets\Common\F4A\F4ACore\Editor\F4AEditor.cs" />
     <Compile Include="Assets\Common\F4A\F4AMobileThird\Editor\FindPrefabsUseTextureEditor.cs" />
     <Compile Include="Assets\Common\F4A\Utils\Editor\ChangeTextureImportSettingsUnity3.cs" />
-    <Compile Include="Assets\Base\IronSource\Editor\IronSourceManifestProcessor.cs" />
+    <Compile Include="Assets\IronSource\Editor\IronSourceManifestProcessor.cs" />
     <Compile Include="Assets\Spine\spine-unity\Editor\AssetDatabaseAvailabilityDetector.cs" />
     <Compile Include="Assets\Spine\spine-unity\Modules\SkeletonRenderSeparator\Editor\SkeletonRenderSeparatorInspector.cs" />
     <Compile Include="Assets\Common\F4A\F4AMobileThird\Editor\Utils\SpriteTextureSliceExporter.cs" />
     <Compile Include="Assets\Spine\spine-unity\Editor\SpineAttributeDrawers.cs" />
     <Compile Include="Assets\Base\3Party\Joker2X\Editor\CustomPostprocessScript.cs" />
-    <Compile Include="Assets\Base\IronSource\Editor\IAdapterSettings.cs" />
+    <Compile Include="Assets\IronSource\Editor\IAdapterSettings.cs" />
     <Compile Include="Assets\Common\F4A\F4AMobileThird\Editor\Utils\Cocos2dxTextureAtlasSlicer.cs" />
     <Compile Include="Assets\Spine\spine-unity\Editor\BoneFollowerInspector.cs" />
     <Compile Include="Assets\Common\F4A\F4AMobileThird\Editor\EditorTools.cs" />
     <Compile Include="Assets\Spine\spine-unity\Editor\SpineEditorUtilities.cs" />
     <Compile Include="Assets\Spine\spine-unity\Editor\SkeletonAnimatorInspector.cs" />
     <Compile Include="Assets\Spine\spine-unity\SkeletonUtility\Editor\SkeletonUtilityBoneInspector.cs" />
-    <Compile Include="Assets\Base\IronSource\Editor\IronSourceMediationSettingsInspector.cs" />
+    <Compile Include="Assets\IronSource\Editor\IronSourceMediationSettingsInspector.cs" />
     <Compile Include="Assets\Spine\spine-unity\Editor\Menus.cs" />
     <Compile Include="Assets\Base\3Party\Adjust\Editor\AdjustSettings.cs" />
     <Compile Include="Assets\Common\F4A\F4AMobileThird\Editor\Manager\ShephertzEditor.cs" />
@@ -98,7 +99,7 @@
     <Compile Include="Assets\Common\F4A\F4AMobileThird\Editor\Utils\ImageToUnitySprites.cs" />
     <Compile Include="Assets\Common\F4A\F4AMobileThird\Editor\Manager\BuildEditor.cs" />
     <Compile Include="Assets\Common\F4A\Utils\Editor\ChangeTextureImportSettings.cs" />
-    <Compile Include="Assets\Base\IronSource\Editor\IronSourceMediatedNetworkSettingsInspector.cs" />
+    <Compile Include="Assets\IronSource\Editor\IronSourceMediatedNetworkSettingsInspector.cs" />
     <Compile Include="Assets\LeanTween\Editor\LeanTweenDocumentationEditor.cs" />
     <Compile Include="Assets\Spine\spine-unity\Editor\AtlasAssetInspector.cs" />
     <Compile Include="Assets\Spine\spine-unity\Modules\Ragdoll\Editor\SkeletonRagdoll2DInspector.cs" />
@@ -107,14 +108,14 @@
     <Compile Include="Assets\Base\3Party\Joker2X\Editor\ConfigBuild.cs" />
     <Compile Include="Assets\Spine\spine-unity\Modules\CustomMaterials\Editor\SkeletonRendererCustomMaterialsInspector.cs" />
     <Compile Include="Assets\Spine\spine-unity\Modules\BoundingBoxFollower\Editor\BoundingBoxFollowerInspector.cs" />
-    <Compile Include="Assets\Base\IronSource\Editor\IronSourceMediatedNetworkSettings.cs" />
-    <Compile Include="Assets\Base\IronSource\Editor\MobileDependencyResolverInstallerLp.cs" />
+    <Compile Include="Assets\IronSource\Editor\IronSourceMediatedNetworkSettings.cs" />
+    <Compile Include="Assets\IronSource\Editor\MobileDependencyResolverInstallerLp.cs" />
     <Compile Include="Assets\Spine\spine-unity\Modules\Timeline\SpineSkeletonFlip\Editor\SpineSkeletonFlipDrawer.cs" />
     <Compile Include="Assets\Base\3Party\Joker2X\Localize\Scripts\Editor\LocalizeEditorTools.cs" />
     <Compile Include="Assets\Common\F4A\F4AMobileThird\Editor\Manager\AdsEditor.cs" />
     <Compile Include="Assets\Common\F4A\F4AMobileThird\Editor\Manager\BuildScripts.cs" />
     <Compile Include="Assets\Base\3Party\Adjust\Editor\AdjustSettingsEditor.cs" />
-    <Compile Include="Assets\Base\IronSource\Editor\IronSourceDependenciesManagerConstants.cs" />
+    <Compile Include="Assets\IronSource\Editor\IronSourceDependenciesManagerConstants.cs" />
     <Compile Include="Assets\Spine\spine-unity\Editor\SkeletonDebugWindow.cs" />
     <Compile Include="Assets\Common\F4A\F4AMobileThird\Editor\Manager\IAPEditor.cs" />
     <Compile Include="Assets\Common\F4A\F4AMobileThird\Editor\F4ABuildPostprocessor.cs" />
@@ -124,17 +125,17 @@
     <Compile Include="Assets\Spine\spine-unity\Modules\SlotBlendModes\Editor\SlotBlendModesEditor.cs" />
     <Compile Include="Assets\Base\3Party\Joker2X\Localize\Scripts\Editor\LocalizeParse.cs" />
     <Compile Include="Assets\Common\F4A\F4AMobileThird\Editor\Manager\AudioEditor.cs" />
-    <Compile Include="Assets\Base\IronSource\Editor\IronSourceDependenciesManager.cs" />
-    <Compile Include="Assets\Base\IronSource\Editor\IronSourcePlistProcessor.cs" />
+    <Compile Include="Assets\IronSource\Editor\IronSourceDependenciesManager.cs" />
+    <Compile Include="Assets\IronSource\Editor\IronSourcePlistProcessor.cs" />
     <Compile Include="Assets\Demigiant\DOTweenPro\Editor\DOTweenAnimationInspector.cs" />
     <Compile Include="Assets\Spine\spine-unity\Editor\SkeletonDataAssetInspector.cs" />
-    <Compile Include="Assets\Base\IronSource\Editor\IronSourceMenu.cs" />
+    <Compile Include="Assets\IronSource\Editor\IronSourceMenu.cs" />
     <Compile Include="Assets\Spine\spine-unity\Editor\AnimationReferenceAssetEditor.cs" />
     <Compile Include="Assets\Common\F4A\NativeShare\Editor\NSPostProcessBuild.cs" />
-    <Compile Include="Assets\Base\IronSource\Editor\IronSourceBuildPostprocessor.cs" />
+    <Compile Include="Assets\IronSource\Editor\IronSourceBuildPostprocessor.cs" />
     <Compile Include="Assets\Base\3Party\Adjust\Editor\AdjustEditorPreprocessor.cs" />
     <Compile Include="Assets\Spine\spine-unity\Modules\Ragdoll\Editor\SkeletonRagdollInspector.cs" />
-    <Compile Include="Assets\Base\IronSource\Editor\IronSourceEditorCoroutines.cs" />
+    <Compile Include="Assets\IronSource\Editor\IronSourceEditorCoroutines.cs" />
     <Compile Include="Assets\Spine\spine-unity\Editor\SkeletonRendererInspector.cs" />
     <Compile Include="Assets\Spine\spine-unity\Editor\SkeletonAnimationInspector.cs" />
     <Compile Include="Assets\Common\F4A\PoolManager\Editor\PathologicalGames\Common\PGEditorUtils.cs" />
@@ -143,15 +144,31 @@
     <Compile Include="Assets\Common\F4A\F4ACore\Editor\F4ACoreEditor.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\IronSource\Editor\ISChartboostAdapterDependencies.xml" />
     <None Include="Assets\Base\FacebookSDK\Plugins\Editor\Facebook.Unity.Editor.dll" />
+    <None Include="Assets\IronSource\Editor\ISPangleAdapterDependencies.xml" />
+    <None Include="Assets\IronSource\Editor\ISCSJAdapterDependencies.xml" />
     <None Include="Assets\Base\FacebookSDK\Plugins\Editor\Dependencies.xml" />
     <None Include="Assets\Demigiant\DOTween\Editor\DOTweenEditor.dll" />
     <None Include="Assets\Demigiant\DOTweenPro\Editor\DOTweenProEditor.XML" />
+    <None Include="Assets\IronSource\Editor\ISVungleAdapterDependencies.xml" />
     <None Include="Assets\Demigiant\DOTweenPro\Editor\DOTweenProEditor.dll" />
     <None Include="Assets\Spine\spine-unity\Editor\Resources\SpineAssetDatabaseMarker.txt" />
-    <None Include="Assets\Base\IronSource\Editor\IronSourceSDKDependencies.xml" />
+    <None Include="Assets\IronSource\Editor\ISFyberAdapterDependencies.xml" />
+    <None Include="Assets\IronSource\Editor\ISSuperAwesomeAdapterDependencies.xml" />
+    <None Include="Assets\IronSource\Editor\ISAdMobAdapterDependencies.xml" />
+    <None Include="Assets\IronSource\Editor\ISTencentAdapterDependencies.xml" />
+    <None Include="Assets\IronSource\Editor\IronSourceSDKDependencies.xml" />
+    <None Include="Assets\IronSource\Editor\ISMintegralAdapterDependencies.xml" />
+    <None Include="Assets\IronSource\Editor\ISAPSAdapterDependencies.xml" />
+    <None Include="Assets\IronSource\Editor\ISMyTargetAdapterDependencies.xml" />
     <None Include="Assets\Demigiant\DemiLib\Core\Editor\DemiEditor.xml" />
+    <None Include="Assets\IronSource\Editor\ISFacebookAdapterDependencies.xml" />
     <None Include="Assets\Demigiant\DOTween\Editor\DOTweenEditor.XML" />
+    <None Include="Assets\IronSource\Editor\ISAppLovinAdapterDependencies.xml" />
+    <None Include="Assets\IronSource\Editor\ISInMobiAdapterDependencies.xml" />
+    <None Include="Assets\IronSource\Editor\ISAdColonyAdapterDependencies.xml" />
+    <None Include="Assets\IronSource\Editor\ISLiftoffAdapterDependencies.xml" />
     <None Include="Assets\Demigiant\DemiLib\Core\Editor\DemiEditor.dll" />
   </ItemGroup>
   <ItemGroup>
@@ -559,6 +576,9 @@
     </Reference>
     <Reference Include="DOTween43">
       <HintPath>Assets\Demigiant\DOTween\DOTween43.dll</HintPath>
+    </Reference>
+    <Reference Include="UDP">
+      <HintPath>Library\PackageCache\com.unity.purchasing.udp@2.0.0\Runtime\UDP.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
@@ -1126,6 +1146,10 @@
     <ProjectReference Include="UnityEngine.Advertisements.Editor.csproj">
       <Project>{89AB91E2-62BF-C2FF-5AB6-98EADE65764A}</Project>
       <Name>UnityEngine.Advertisements.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="com.unity.purchasing.udp.Editor.csproj">
+      <Project>{707C6B6C-1E33-F608-52EE-430EC8C4FCD9}</Project>
+      <Name>com.unity.purchasing.udp.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

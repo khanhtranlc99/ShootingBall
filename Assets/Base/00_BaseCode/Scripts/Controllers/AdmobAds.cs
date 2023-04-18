@@ -34,6 +34,8 @@ public class AdmobAds : MonoBehaviour
     {
         ironsourceController.Init();
         countdownAds = 1000;
+        ShowBanner();
+        Debug.LogError("gcc " + GameController.Instance.useProfile.IsRemoveAds);
     }
 
     #region Interstitial

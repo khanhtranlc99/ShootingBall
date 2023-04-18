@@ -348,6 +348,9 @@
     <Reference Include="DOTween43">
       <HintPath>Assets\Demigiant\DOTween\DOTween43.dll</HintPath>
     </Reference>
+    <Reference Include="UDP">
+      <HintPath>Library\PackageCache\com.unity.purchasing.udp@2.0.0\Runtime\UDP.dll</HintPath>
+    </Reference>
     <Reference Include="mscorlib">
       <HintPath>D:\Unity2020.3.15f2\2020.3.38f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll</HintPath>
     </Reference>

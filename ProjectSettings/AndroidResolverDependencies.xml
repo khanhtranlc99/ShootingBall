@@ -1,14 +1,23 @@
 <dependencies>
   <packages>
+    <package>androidx.legacy:legacy-support-v4:1.0.0</package>
+    <package>androidx.recyclerview:recyclerview:1.2.1</package>
+    <package>com.adcolony:sdk:4.8.0</package>
     <package>com.android.support:appcompat-v7:25.3.1</package>
     <package>com.android.support:cardview-v7:25.3.1</package>
     <package>com.android.support:customtabs:25.3.1</package>
     <package>com.android.support:support-v4:25.3.1</package>
+    <package>com.applovin:applovin-sdk:11.7.1</package>
+    <package>com.chartboost:chartboost-sdk:9.2.0</package>
+    <package>com.facebook.android:audience-network-sdk:6.13.7</package>
     <package>com.facebook.android:facebook-applinks:[16.0,17)</package>
     <package>com.facebook.android:facebook-core:[16.0,17)</package>
     <package>com.facebook.android:facebook-gamingservices:[16.0,17)</package>
     <package>com.facebook.android:facebook-login:[16.0,17)</package>
     <package>com.facebook.android:facebook-share:[16.0,17)</package>
+    <package>com.fyber:marketplace-sdk:8.2.2</package>
+    <package>com.google.android.exoplayer:exoplayer:2.17.1</package>
+    <package>com.google.android.gms:play-services-ads:21.5.0</package>
     <package>com.google.android.gms:play-services-ads-identifier:18.0.1</package>
     <package>com.google.android.gms:play-services-base:18.1.0</package>
     <package>com.google.android.gms:play-services-basement:18.1.0</package>
@@ -25,8 +34,32 @@
     <package>com.google.firebase:firebase-iid:21.1.0</package>
     <package>com.google.firebase:firebase-messaging:23.0.8</package>
     <package>com.google.firebase:firebase-messaging-unity:9.5.0</package>
-    <package>com.ironsource.sdk:mediationsdk:7.2.7</package>
+    <package>com.inmobi.monetization:inmobi-ads:10.1.2</package>
+    <package>com.ironsource.adapters:adcolonyadapter:4.3.14</package>
+    <package>com.ironsource.adapters:admobadapter:4.3.36</package>
+    <package>com.ironsource.adapters:applovinadapter:4.3.37</package>
+    <package>com.ironsource.adapters:apsadapter:4.3.8</package>
+    <package>com.ironsource.adapters:chartboostadapter:4.3.11</package>
+    <package>com.ironsource.adapters:facebookadapter:4.3.40</package>
+    <package>com.ironsource.adapters:fyberadapter:4.3.24</package>
+    <package>com.ironsource.adapters:inmobiadapter:4.3.17</package>
+    <package>com.ironsource.adapters:liftoffadapter:4.3.5</package>
+    <package>com.ironsource.adapters:mintegraladapter:4.3.13</package>
+    <package>com.ironsource.adapters:mytargetadapter:4.1.16</package>
+    <package>com.ironsource.adapters:pangleadapter:4.3.17</package>
+    <package>com.ironsource.adapters:superawesomeadapter:4.1.6</package>
+    <package>com.ironsource.adapters:vungleadapter:4.3.20</package>
+    <package>com.ironsource.sdk:mediationsdk:7.3.0.1</package>
+    <package>com.mbridge.msdk.oversea:mbbanner:16.3.81</package>
+    <package>com.mbridge.msdk.oversea:mbbid:16.3.81</package>
+    <package>com.mbridge.msdk.oversea:newinterstitial:16.3.81</package>
+    <package>com.mbridge.msdk.oversea:reward:16.3.81</package>
+    <package>com.my.target:mytarget-sdk:5.16.3</package>
+    <package>com.pangle.global:ads-sdk:5.0.0.8</package>
     <package>com.parse.bolts:bolts-android:1.4.0</package>
+    <package>com.vungle:publisher-sdk-android:6.12.1</package>
+    <package>io.liftoff:liftoffads:1.9.1</package>
+    <package>tv.superawesome.sdk.publisher:superawesome:8.5.4</package>
   </packages>
   <files>
     <file>Assets/GeneratedLocalRepo/Firebase/m2repository/com/google/firebase/firebase-analytics-unity/9.5.0/firebase-analytics-unity-9.5.0.aar</file>
