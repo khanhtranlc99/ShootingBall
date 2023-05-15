@@ -47,6 +47,7 @@ public class GameControll : MonoBehaviour
 
 	private void Start()
 	{
+		GameController.Instance.admobAds.googleAdmobe.RequestBannerAd();
 		if (GameControll.firstLoaded)
 		{
 			LeanTween.delayedCall(3f, delegate()

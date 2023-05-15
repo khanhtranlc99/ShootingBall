@@ -16,68 +16,38 @@ public class AdmobAds : MonoBehaviour
 {
 
     [SerializeField] private AdsController ironsourceController;
+    [SerializeField] public GoogleAdmobe googleAdmobe;
 
 
-#if UNITY_ANDROID
-    private const string InterstitialAdUnitId = "b54ac498d13ef37f";
-    private const string RewardedAdUnitId = "6b227ce71cafca73";
-    private const string BanerAdUnitId = "a7c39fcfb47b2e38";
-#elif UNITY_IOS
-    private const string InterstitialAdUnitId = "c8d31e48f08ed31e";
-    private const string RewardedAdUnitId = "02932bb866cbb369";
-    private const string BanerAdUnitId = "ff665c0a75cadcc4";
-#endif
 
     public float countdownAds;
 
     public void Init()
     {
-        ironsourceController.Init();
+        
         countdownAds = 1000;
-        ShowBanner();
-        Debug.LogError("gcc " + GameController.Instance.useProfile.IsRemoveAds);
+        googleAdmobe.InitAds();
+
+      
     }
 
     #region Interstitial
-    public bool ShowInterstitial(bool isShowImmediatly = false, string actionWatchLog = "other", UnityAction actionIniterClose = null, UnityAction actionIniterShow = null, string level = null)
+    public bool ShowInterstitial(bool isShowImmediatly = false, string actionWatchLog = "other", Action actionIniterClose = null, UnityAction actionIniterShow = null, string level = null)
     {
         if (GameController.Instance.useProfile.IsRemoveAds)
         {
             actionIniterClose?.Invoke();
             return false;
         }
-
-#if UNITY_EDITOR
-        actionIniterClose?.Invoke();
-        countdownAds = 0;
-        return true;
-#endif
-
-
-        if (UseProfile.CurrentLevel > RemoteConfigController.GetFloatConfig(FirebaseConfig.LEVEL_START_SHOW_INITSTIALL, 0))
+        if (GameControll.levelPlaying > RemoteConfigController.GetFloatConfig(FirebaseConfig.LEVEL_START_SHOW_INITSTIALL, 2))
         {
-            GameController.Instance.AnalyticsController.LoadInterEligible();
+          
 
             if (countdownAds > RemoteConfigController.GetFloatConfig(FirebaseConfig.DELAY_SHOW_INITSTIALL, 30) || isShowImmediatly)
             {
-                ironsourceController.ShowInterstitial(actionIniterClose,
-            () =>
-            {
-                UseProfile.NumberOfAdsInDay = UseProfile.NumberOfAdsInDay + 1;
-                UseProfile.NumberOfAdsInPlay = UseProfile.NumberOfAdsInPlay + 1;
-                if (actionIniterClose != null)
-                    actionIniterClose?.Invoke();
-                if (actionIniterShow != null)
-                    actionIniterShow?.Invoke();
-                GameController.Instance.AnalyticsController.LogInterShow();
-                countdownAds = 0;
-            });
+                googleAdmobe.ShowInterstitial22(actionIniterClose);
             }
-            else
-            {
-                if (actionIniterClose != null)
-                    actionIniterClose();
-            }
+
         }
         else
         {
@@ -97,24 +67,24 @@ public class AdmobAds : MonoBehaviour
     /// <param name="actionReward">Hành động khi xem xong Video và nhận thưởng </param>
     /// <param name="actionNotLoadedVideo"> Hành động báo lỗi không có video để xem </param>
     /// <param name="actionClose"> Hành động khi đóng video (Đóng lúc đang xem dở hoặc đã xem hết) </param>
-    public void ShowVideoReward(UnityAction actionReward, UnityAction actionNotLoadedVideo, UnityAction actionClose, ActionWatchVideo actionType, string level)
+    public void ShowVideoReward(Action actionReward)
     {
         if (Application.internetReachability == NetworkReachability.NotReachable)
         {
-            actionNotLoadedVideo?.Invoke();
-            GameController.Instance.AnalyticsController.LogWatchVideo(actionType, true, false, level);
+           
+            //GameController.Instance.AnalyticsController.LogWatchVideo(actionType, true, false, level);
             return;
         }
-
-        if (!ironsourceController.ShowRewardedVideo(actionNotLoadedVideo, () =>
-        {
-            actionReward?.Invoke();
-            countdownAds = 0;
-            GameController.Instance.AnalyticsController.LogVideoRewardShow(actionType.ToString());
-        }))
-        {
-            actionNotLoadedVideo?.Invoke();
-        }
+        googleAdmobe.ShowRewardedVideo222(actionReward);
+        //if (!ironsourceController.ShowRewardedVideo(actionNotLoadedVideo, () =>
+        //{
+        //    actionReward?.Invoke();
+        //    countdownAds = 0;
+        //    GameController.Instance.AnalyticsController.LogVideoRewardShow(actionType.ToString());
+        //}))
+        //{
+        //    actionNotLoadedVideo?.Invoke();
+        //}
     }
 
     #endregion
@@ -122,13 +92,13 @@ public class AdmobAds : MonoBehaviour
     #region Banner
     public void ShowBanner()
     {
-        ironsourceController.ShowBanner();
-
+        //ironsourceController.ShowBanner();
+        //googleAdmobe.ShowBanner();
     }
 
     public void DestroyBanner()
     {
-        ironsourceController.HideBanner();
+        //googleAdmobe.HideBanner();
     }
     #endregion
 

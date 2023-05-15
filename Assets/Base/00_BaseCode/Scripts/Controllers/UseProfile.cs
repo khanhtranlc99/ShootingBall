@@ -34,12 +34,13 @@ public class UseProfile : MonoBehaviour
     {
         get
         {
-            return PlayerPrefs.GetInt(StringHelper.COIN, 0);
+            return PlayerPrefs.GetInt(StringHelper.COIN, 1000);
         }
         set
         {
             PlayerPrefs.SetInt(StringHelper.COIN, value);
             PlayerPrefs.Save();
+            EventDispatcher.EventDispatcher.Instance.PostEvent(EventID.CHANGE_COIN) ;
         }
     }
     public static int Heart

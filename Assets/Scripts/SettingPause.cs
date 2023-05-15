@@ -53,18 +53,22 @@ public class SettingPause : MonoBehaviour
 
 	public void ButRetry()
 	{
-       
-        ControlSound.instance.PlaySoundButton();
-		this.panelBackToRetry.SetActive(true);
+		GameController.Instance.admobAds.googleAdmobe.ShowInterstitial22(delegate {
+			ControlSound.instance.PlaySoundButton();
+			this.panelBackToRetry.SetActive(true);
+		});
+		
 	}
 
 	public void ButContinue()
 	{
-		
-        ControlSound.instance.PlaySoundButton();
-		BackDeviceGame.status = 0;
-		Time.timeScale = 1f;
-		base.gameObject.SetActive(false);
+		GameController.Instance.admobAds.googleAdmobe.ShowInterstitial22(delegate {
+			ControlSound.instance.PlaySoundButton();
+			BackDeviceGame.status = 0;
+			Time.timeScale = 1f;
+			base.gameObject.SetActive(false);
+		});
+			
 	}
 
 	public void ButtonMenu()

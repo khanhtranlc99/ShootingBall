@@ -113,53 +113,72 @@ public class ControlEndgame : MonoBehaviour
 
 	public void ButtonClose()
 	{
-		ControlSound.instance.PlaySoundButton();
-		ObjectPoolerManager.Instance.OffAllObject();
-		ObjectPoolerManager.Instance.gameObject.transform.position = Vector3.zero;
-		if (GameControll.instane.placementIntersAds == GameControll.PlacementIntersAds.AFTER)
-		{
-			//SG_AdManager.ads.ShowIntertitial();
-			base.StartCoroutine(this.CallSceneMenu(0.2f));
-		}
-		else
-		{
-			base.StartCoroutine(this.CallSceneMenu(0f));
-		}
+		GameController.Instance.admobAds.googleAdmobe.ShowInterstitial22(delegate {
+			ControlSound.instance.PlaySoundButton();
+			ObjectPoolerManager.Instance.OffAllObject();
+			ObjectPoolerManager.Instance.gameObject.transform.position = Vector3.zero;
+			if (GameControll.instane.placementIntersAds == GameControll.PlacementIntersAds.AFTER)
+			{
+				//SG_AdManager.ads.ShowIntertitial();
+				base.StartCoroutine(this.CallSceneMenu(0.2f));
+			}
+			else
+			{
+				base.StartCoroutine(this.CallSceneMenu(0f));
+			}
+		});
+
+		  
 	}
 
 	public void ButtonRetry()
 	{
-		ControlSound.instance.PlaySoundButton();
-		ObjectPoolerManager.Instance.gameObject.transform.position = Vector3.zero;
-		ObjectPoolerManager.Instance.OffAllObject();
-		GameControll.totalBall = GameControll.startBalls[GameControll.levelPlaying - 1];
-		if (GameControll.instane.placementIntersAds == GameControll.PlacementIntersAds.AFTER)
+		GameController.Instance.admobAds.googleAdmobe.ShowInterstitial22(delegate
 		{
-			//SG_AdManager.ads.ShowIntertitial();
-			base.StartCoroutine(this.CallNewLevel(0.2f));
-		}
-		else
-		{
-			base.StartCoroutine(this.CallNewLevel(0f));
-		}
+			ControlSound.instance.PlaySoundButton();
+			ObjectPoolerManager.Instance.gameObject.transform.position = Vector3.zero;
+			ObjectPoolerManager.Instance.OffAllObject();
+			GameControll.totalBall = GameControll.startBalls[GameControll.levelPlaying - 1];
+			if (GameControll.instane.placementIntersAds == GameControll.PlacementIntersAds.AFTER)
+			{
+				//SG_AdManager.ads.ShowIntertitial();
+				base.StartCoroutine(this.CallNewLevel(0.2f));
+			}
+			else
+			{
+				base.StartCoroutine(this.CallNewLevel(0f));
+			}
+		});
+			
 	}
 
 	public void ButtonNext()
 	{
-		ControlSound.instance.PlaySoundButton();
-		ObjectPoolerManager.Instance.gameObject.transform.position = Vector3.zero;
-		ObjectPoolerManager.Instance.OffAllObject();
-		GameControll.levelPlaying++;
-		GameControll.totalBall = GameControll.startBalls[GameControll.levelPlaying - 1];
-		if (GameControll.instane.placementIntersAds == GameControll.PlacementIntersAds.AFTER)
-		{
-			//SG_AdManager.ads.ShowIntertitial();
-			base.StartCoroutine(this.CallNewLevel(0.2f));
-		}
-		else
-		{
-			base.StartCoroutine(this.CallNewLevel(0f));
-		}
+		GameController.Instance.admobAds.googleAdmobe.ShowInterstitial22(delegate {
+
+
+			ControlSound.instance.PlaySoundButton();
+			ObjectPoolerManager.Instance.gameObject.transform.position = Vector3.zero;
+			ObjectPoolerManager.Instance.OffAllObject();
+			GameControll.levelPlaying++;
+			GameControll.totalBall = GameControll.startBalls[GameControll.levelPlaying - 1];
+			if (GameControll.instane.placementIntersAds == GameControll.PlacementIntersAds.AFTER)
+			{
+				//SG_AdManager.ads.ShowIntertitial();
+				base.StartCoroutine(this.CallNewLevel(0.2f));
+			}
+			else
+			{
+				base.StartCoroutine(this.CallNewLevel(0f));
+			}
+
+
+
+
+
+
+		});
+		
 	}
 
 	private IEnumerator CallNewLevel(float time)

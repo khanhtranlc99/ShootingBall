@@ -16,4 +16,5 @@
 
     CHANGE_THUNDER = 101,
     CHANGE_ADD_BALL = 102,
+    CHANGE_COIN = 103,
 }

@@ -45,12 +45,29 @@ public class ControlContinue : MonoBehaviour
 
 	public void ButtonContinue()
 	{
-       
+		GameController.Instance.admobAds.ShowVideoReward(delegate {
 
-		ControlSound.instance.PlaySoundButton();
-		ObjectPoolerManager.Instance.gameObject.transform.position += new Vector3(0,2.28f,0);
-		base.gameObject.SetActive(false);
+			ControlSound.instance.PlaySoundButton();
+			ObjectPoolerManager.Instance.gameObject.transform.position += new Vector3(0, 2.28f, 0);
+			base.gameObject.SetActive(false);
+
+
+
+		});
+
 	
+
+	}
+	public void coinTest()
+	{
+		if (UseProfile.Coin >= 600)
+		{
+			UseProfile.Coin -= 600;
+			ControlSound.instance.PlaySoundButton();
+			ObjectPoolerManager.Instance.gameObject.transform.position += new Vector3(0, 2.28f, 0);
+			base.gameObject.SetActive(false);
+
+		}
 	}
 
 	public IEnumerator ShowEndGame()

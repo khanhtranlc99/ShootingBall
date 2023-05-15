@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Loading : MonoBehaviour
 {
+	private string sceneName;
 	private void OnEnable()
 	{
 		base.StartCoroutine(this.WaitLoad());
@@ -12,8 +13,10 @@ public class Loading : MonoBehaviour
 
 	private IEnumerator WaitLoad()
 	{
-		AsyncOperation async = SceneManager.LoadSceneAsync(1);
-		while (!async.isDone)
+	
+		sceneName = "Game";
+		var _asyncOperation = SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Single);
+		while (!_asyncOperation.isDone)
 		{
 			yield return null;
 		}

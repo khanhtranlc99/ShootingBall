@@ -8,11 +8,17 @@ using System;
 using MoreMountains.NiceVibrations;
 using UnityEngine.Events;
 
-public class GameScene : BaseScene
+public class GameScene : MonoBehaviour
 {
- 
-    public override void OnEscapeWhenStackBoxEmpty()
+
+    public Text tvCoin;
+    public void Start()
     {
-        throw new NotImplementedException();
+        tvCoin.text = "" + UseProfile.Coin;
+        EventDispatcher.EventDispatcher.Instance.RegisterListener(EventID.CHANGE_COIN, ChangeCoin);
+    }
+    private void ChangeCoin(object param)
+    {
+        tvCoin.text = "" + UseProfile.Coin;
     }
 }

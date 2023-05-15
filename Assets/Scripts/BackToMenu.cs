@@ -18,10 +18,13 @@ public class BackToMenu : MonoBehaviour
 
 	public void ButtonYes()
 	{
-		Time.timeScale = 1f;
-		//SG_AdManager.ads.ShowIntertitial();
-		ControlSound.instance.PlaySoundButton();
-		ObjectPoolerManager.Instance.OffAllObject();
-		SceneManager.LoadScene(0);
+		GameController.Instance.admobAds.googleAdmobe.ShowInterstitial22(delegate {
+			Time.timeScale = 1f;
+			//SG_AdManager.ads.ShowIntertitial();
+			ControlSound.instance.PlaySoundButton();
+			ObjectPoolerManager.Instance.OffAllObject();
+			SceneManager.LoadScene("Start");
+		});
+			
 	}
 }

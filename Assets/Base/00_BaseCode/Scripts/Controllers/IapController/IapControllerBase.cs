@@ -573,23 +573,7 @@ public class IapControllerBase : MonoBehaviour, IStoreListener
         }
         else if (item.typeBuy == TypeBuy.Video)
         {
-            GameController.Instance.admobAds.ShowVideoReward(() =>
-            {
-                item.Claim();
-                this.PostEvent(EventID.BUY_PRODUCT_SUCCESS, typePack.ToString());
-                //RewardIAPBox rwBox = RewardIAPBox.Setup();
-                //rwBox.Show(item);
-            },
-            () =>
-            {
-                GameController.Instance.moneyEffectController.SpawnEffectText_FlyUp
-                (
-               Camera.main.ScreenToWorldPoint(Input.mousePosition),
-                "No video at the moment!",
-                Color.white,
-                isSpawnItemPlayer: true
-                );
-            }, () => { }, ActionWatchVideo.None, null);
+            GameController.Instance.admobAds.ShowVideoReward(delegate { item.Claim(); });
         }
         else
         {

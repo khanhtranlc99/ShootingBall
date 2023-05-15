@@ -49,4 +49,5 @@ public class BackDeviceStart : MonoBehaviour
 	public StartGame startGame;
 
 	public OutGame outGame;
+
 }

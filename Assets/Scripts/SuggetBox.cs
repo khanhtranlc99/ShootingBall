@@ -29,13 +29,13 @@ public class SuggetBox : BaseBox
     [SerializeField] private Button btnCoin;
     [SerializeField] private  Image imgGift;
     [SerializeField] private  Text txtGift;
- 
-    
-    
+
+    [SerializeField] private Text textCoin;
+
 
     #endregion
-    
-    
+
+
     private void Init()
     {
         btnClose.onClick.AddListener(delegate {  Close(); });
@@ -60,9 +60,10 @@ public class SuggetBox : BaseBox
                 txtGift.text = "x1";
                     break;
             }
-        
-  
-       
+
+        textCoin.text = "" + UseProfile.Coin;
+
+
     }
 
 
@@ -70,17 +71,7 @@ public class SuggetBox : BaseBox
     {
       
         GameController.Instance.admobAds.ShowVideoReward(
-                  actionReward: () =>
-                  {
-                      HandleTakeGift();
-                  },
-                  actionNotLoadedVideo: () =>
-                  {
-                      
-                  },
-                  actionClose: null,
-                  ActionWatchVideo.Hint,
-                GameControll.levelPlaying.ToString());
+                 delegate { HandleTakeGift(); });
     }
     private void OnButtonCoinClick()
     {
@@ -89,6 +80,10 @@ public class SuggetBox : BaseBox
             UseProfile.Coin -= 600;
             HandleTakeGift();
 
+        }
+        else
+        {
+            ShopBox.Setup().Show();
         }
     }
     
