@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_web_client_id">
+  <string name="gcm_defaultSenderId" translatable="false">765793442265</string>
+  <string name="google_storage_bucket" translatable="false">zg---brake-ball-shooter.appspot.com</string>
+  <string name="project_id" translatable="false">zg---brake-ball-shooter</string>
+  <string name="google_api_key" translatable="false">AIzaSyBa5jdV-fcmGZ9K3xtekb95nCmUz12_LUA</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBa5jdV-fcmGZ9K3xtekb95nCmUz12_LUA</string>
+  <string name="google_app_id" translatable="false">1:765793442265:android:176af781c14fbbf45421c8</string>
+  <string name="default_web_client_id" translatable="false">765793442265-0otdpnndv1l883o4nm87omijlje2qfon.apps.googleusercontent.com</string>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "765793442265",
+    "project_id": "zg---brake-ball-shooter",
+    "storage_bucket": "zg---brake-ball-shooter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:765793442265:android:176af781c14fbbf45421c8",
+        "android_client_info": {
+          "package_name": "com.zstudio.brakeballshooter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "765793442265-0otdpnndv1l883o4nm87omijlje2qfon.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBa5jdV-fcmGZ9K3xtekb95nCmUz12_LUA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "765793442265-0otdpnndv1l883o4nm87omijlje2qfon.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
